@@ -1,0 +1,290 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  position: relative;
+  font-family: "STXihei", Times, Serif;
+  color: #333333;
+  /*-webkit-font-smoothing: antialiased;*/
+  -webkit-tap-highlight-color: transparent;
+}
+
+body * {
+  max-height: 9999.99rem;
+  -webkit-text-size-adjust: none;
+}
+
+ul {
+  overflow: hidden;
+  list-style-type: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+
+div {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.title {
+  width: 100%;
+  height: 1.14rem;
+  line-height: 1.14rem;
+  text-align: center;
+  color: #fff;
+  background-color: #91d4da;
+  font-size: 0.5rem;
+}
+
+.title .back {
+  position: absolute;
+  left: 0.3rem;
+  line-height: 1.14rem;
+  height: 1.14rem;
+}
+
+.page {
+  top: 1.14rem;
+  bottom: 0;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+}
+
+.tip {
+  width: 100%;
+  background-color: #fff;
+}
+
+.tip li {
+  width: 20%;
+  height: 1.16rem;
+  line-height: 1.16rem;
+  text-align: center;
+  font-size: 0.4rem;
+  display: inline-block;
+  float: left;
+}
+
+.tip .active {
+  border-bottom: 0.06rem solid #91d4da;
+}
+
+.page-container {
+  -webkit-overflow-scrolling: touch;
+}
+
+.top {
+  background-color: #fff;
+}
+
+.top .top_pic {
+  width: 100%;
+  height: 5.5rem;
+  border: none;
+  background: url(/web/static/images/xiong_top.png);
+  background-size: 100%;
+}
+
+.top .note {
+  font-size: 0;
+  padding: 0.45rem;
+}
+
+.top .note li {
+  display: inline-block;
+  width: 1.24rem;
+  margin-right: 0.7rem;
+}
+
+.top .note li .pic {
+  background: url(/web/static/images/note.png) no-repeat center;
+  background-size: 50%;
+  width: 1.24rem;
+  height: 1.24rem;
+  border-radius: 100%;
+  background-color: #91d4da;
+}
+
+.top .note li .text {
+  font-size: 0.36rem;
+  margin-top: 0.4rem;
+  width: 100%;
+  text-align: center;
+}
+
+.top .note .none {
+  margin: 0;
+}
+
+.top .cols {
+  margin: 0 0.3rem;
+  border-top: 0.01rem solid #e5e5e5;
+  padding: 0.36rem 0;
+  font-size: 0;
+}
+
+.top .cols .col {
+  display: inline-block;
+  text-align: center;
+  width: 3.1rem;
+  border-right: 0.01rem solid #e5e5e5;
+  padding: 0.1rem 0;
+}
+
+.top .cols .col .pic {
+  width: 100%;
+  height: 1.66rem;
+}
+
+.top .cols .col .pic_1 {
+  background: url(/web/static/images/xiong_1.png) no-repeat center;
+  background-size: 1.5rem;
+}
+
+.top .cols .col .pic_2 {
+  background: url(/web/static/images/xiong_2.png) no-repeat center;
+  background-size: 1.5rem;
+}
+
+.top .cols .col .pic_3 {
+  background: url(/web/static/images/all.png) no-repeat center;
+  background-size: 2.5rem;
+}
+
+.top .cols .col .text_1 {
+  font-size: 0.5rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 0.1rem;
+}
+
+.top .cols .col .text_2 {
+  font-size: 0.3rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 0.1rem;
+  color: #585858;
+}
+
+.top .cols .none {
+  border: none;
+}
+
+.module_1 {
+  margin-top: 0.3rem;
+  padding: 0 0.3rem;
+  background-color: #fff;
+  font-size: 0;
+}
+
+.module_1 .tit {
+  height: 1.16rem;
+  line-height: 1.16rem;
+  font-size: 0.5rem;
+  color: #676767;
+  border-bottom: 0.01rem solid #e5e5e5;
+}
+
+.module_1 .rows {
+  margin: 0.36rem 0;
+}
+
+.module_1 .rows .left {
+  width: 2.4rem;
+  height: 2.24rem;
+  background: url(/web/static/images/xiong_1.png) no-repeat top;
+  background-size: 3.4rem;
+  display: inline-block;
+  border: 0.01rem solid #fbb22f;
+}
+
+.module_1 .rows .right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.module_1 .rows .right .col {
+  display: inline-block;
+  margin-left: 0.26rem;
+  background-color: #f8f8f8;
+  height: 1rem;
+  width: 3.14rem;
+  line-height: 0.94rem;
+  margin-left: 0.24rem;
+  font-size: 0.3rem;
+  text-align: center;
+}
+
+.module_1 .rows .right .btm {
+  margin-bottom: 0.24rem;
+}
+
+.module_3 .border {
+  border-bottom: 0.01rem solid #e5e5e5;
+}
+
+.module_3 .row {
+  padding: 0.2rem 0.3rem;
+  background-color: #fff;
+}
+
+.module_3 .row .left {
+  display: inline-block;
+  width: 2.8rem;
+  height: 2rem;
+  background: url(/web/static/images/xiong_1.png) no-repeat center;
+  background-size: 2rem;
+  border: 0.01rem solid #e5e5e5;
+}
+
+.module_3 .row .right {
+  display: inline-block;
+  width: 6rem;
+  height: 2rem;
+  position: relative;
+  float: right;
+}
+
+.module_3 .row .right .top {
+  font-size: 0.44rem;
+  line-height: 0.6rem;
+}
+
+.module_3 .row .right .btm {
+  font-size: 0.36rem;
+  bottom: 0;
+  position: absolute;
+  color: #c3c3c3;
+}
+
+.module_3 .row .ti {
+  font-size: 0.44rem;
+  line-height: 0.8rem;
+  margin: 0.1rem 0;
+}
+
+.module_3 .row .imgs .img {
+  display: inline-block;
+  width: 2.8rem;
+  height: 2rem;
+  background: url(/web/static/images/xiong_2.png) no-repeat center;
+  background-size: 1.8rem;
+  margin-right: 0.1rem;
+  border: 0.01rem solid #e5e5e5;
+}
+
+.module_3 .row .time {
+  font-size: 0.36rem;
+  color: #c3c3c3;
+  line-height: 0.8rem;
+}

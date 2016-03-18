@@ -1,0 +1,2119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'fis-parser-sass' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.6
+4 verbose install initial load of /Users/baidu/code/my_test/github/MobileWeb/package.json
+5 verbose installManyTop reading scoped package data from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-node-sass/package.json
+6 info package.json fis-parser-node-sass@0.1.9 No license field.
+7 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/package.json
+8 silly cache add args [ 'fis-parser-sass', null ]
+9 verbose cache add spec fis-parser-sass
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'fis-parser-sass',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'fis-parser-sass',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed fis-parser-sass@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for fis-parser-sass
+13 info addNameTag [ 'fis-parser-sass', 'latest' ]
+14 silly mapToRegistry name fis-parser-sass
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry http://registry.npm.taobao.org/
+17 silly mapToRegistry uri http://registry.npm.taobao.org/fis-parser-sass
+18 verbose addNameTag registry:http://registry.npm.taobao.org/fis-parser-sass not in flight; fetching
+19 verbose request uri http://registry.npm.taobao.org/fis-parser-sass
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 20:55:38
+22 verbose request id efb2fc2857476260
+23 verbose etag "d645-tylt5EmyhCL0O0UaPjUSmA"
+24 http request GET http://registry.npm.taobao.org/fis-parser-sass
+25 http 304 http://registry.npm.taobao.org/fis-parser-sass
+26 verbose headers { date: 'Mon, 14 Mar 2016 12:55:38 GMT',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   etag: '"d645-tylt5EmyhCL0O0UaPjUSmA"',
+26 verbose headers   'x-readtime': '51' }
+27 silly get cb [ 304,
+27 silly get   { date: 'Mon, 14 Mar 2016 12:55:38 GMT',
+27 silly get     connection: 'keep-alive',
+27 silly get     etag: '"d645-tylt5EmyhCL0O0UaPjUSmA"',
+27 silly get     'x-readtime': '51' } ]
+28 verbose etag http://registry.npm.taobao.org/fis-parser-sass from cache
+29 verbose get saving fis-parser-sass to /Users/baidu/.npm/registry.npm.taobao.org/fis-parser-sass/.cache.json
+30 silly addNameTag next cb for fis-parser-sass with tag latest
+31 silly addNamed fis-parser-sass@0.3.16
+32 verbose addNamed "0.3.16" is a plain semver version for fis-parser-sass
+33 silly cache afterAdd fis-parser-sass@0.3.16
+34 verbose afterAdd /Users/baidu/.npm/fis-parser-sass/0.3.16/package/package.json not in flight; writing
+35 verbose afterAdd /Users/baidu/.npm/fis-parser-sass/0.3.16/package/package.json written
+36 silly install resolved [ { name: 'fis-parser-sass',
+36 silly install resolved     description: 'A parser plugin for fis to compile sass file.',
+36 silly install resolved     version: '0.3.16',
+36 silly install resolved     author: { name: 'FIS Team', email: 'fis@baidu.com' },
+36 silly install resolved     homepage: 'http://fis.baidu.com/',
+36 silly install resolved     keywords: [ 'fis', 'sass' ],
+36 silly install resolved     main: 'index.js',
+36 silly install resolved     repository:
+36 silly install resolved      { type: 'git',
+36 silly install resolved        url: 'git+https://github.com/fouber/fis-parser-sass.git' },
+36 silly install resolved     engines: { node: '>=0.8.0' },
+36 silly install resolved     scripts:
+36 silly install resolved      { test: 'mocha --reporter dot --check-leaks test/',
+36 silly install resolved        'test-cov': 'env istanbul=1 mocha --reporter dot --check-leaks test/',
+36 silly install resolved        'test-travis': 'env istanbul=1 istanbul_report=lcovonly mocha --reporter spec --check-leaks test/',
+36 silly install resolved        dev: 'rm -rf debug && node ./node_modules/fis/bin/fis release -cf ./test/fixtures/basic/fis-conf.js -r ./test/fixtures/basic -d ./debug' },
+36 silly install resolved     dependencies: { 'fis-sass': '^3.1.0' },
+36 silly install resolved     devDependencies:
+36 silly install resolved      { fis: '~1.9.2',
+36 silly install resolved        'fis-prepackager-derived': '0.0.2',
+36 silly install resolved        istanbul: '~0.3.0',
+36 silly install resolved        mocha: '~1.21.3',
+36 silly install resolved        tmp: '0.0.24' },
+36 silly install resolved     gitHead: '49bafeac2dca3fc965eea42cc1a70ee03c604254',
+36 silly install resolved     bugs: { url: 'https://github.com/fouber/fis-parser-sass/issues' },
+36 silly install resolved     _id: 'fis-parser-sass@0.3.16',
+36 silly install resolved     _shasum: 'bbf595f5b68a3c8c78409840d6a485e08c0cc195',
+36 silly install resolved     _from: 'fis-parser-sass@latest',
+36 silly install resolved     _npmVersion: '2.7.4',
+36 silly install resolved     _nodeVersion: '0.12.2',
+36 silly install resolved     _npmUser: { name: '2betop', email: '2betop.cn@gmail.com' },
+36 silly install resolved     dist:
+36 silly install resolved      { shasum: 'bbf595f5b68a3c8c78409840d6a485e08c0cc195',
+36 silly install resolved        size: 6150,
+36 silly install resolved        noattachment: false,
+36 silly install resolved        tarball: 'http://registry.npm.taobao.org/fis-parser-sass/download/fis-parser-sass-0.3.16.tgz' },
+36 silly install resolved     maintainers: [ [Object], [Object] ],
+36 silly install resolved     directories: {},
+36 silly install resolved     publish_time: 1453171294164,
+36 silly install resolved     _cnpm_publish_time: 1453171294164,
+36 silly install resolved     _resolved: 'http://registry.npm.taobao.org/fis-parser-sass/download/fis-parser-sass-0.3.16.tgz',
+36 silly install resolved     readme: 'ERROR: No README data found!' } ]
+37 info install fis-parser-sass@0.3.16 into /Users/baidu/code/my_test/github/MobileWeb
+38 info installOne fis-parser-sass@0.3.16
+39 verbose installOne of fis-parser-sass to /Users/baidu/code/my_test/github/MobileWeb not in flight; installing
+40 verbose lock using /Users/baidu/.npm/_locks/fis-parser-sass-f949c9af47ec42b7.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+41 silly install write writing fis-parser-sass 0.3.16 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+42 verbose unbuild node_modules/fis-parser-sass
+43 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+44 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+45 verbose tar unpack /Users/baidu/.npm/fis-parser-sass/0.3.16/package.tgz
+46 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+47 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass is being purged
+48 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm extractEntry .npmignore
+52 silly gunzTarPerm extractEntry README.md
+53 silly gunzTarPerm extractEntry compile.js
+54 silly gunzTarPerm extractEntry index.js
+55 silly gunzTarPerm extractEntry LICENSE.md
+56 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/package.json
+57 info preinstall fis-parser-sass@0.3.16
+58 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/package.json
+59 silly prepareForInstallMany adding fis-sass@^3.1.0 from fis-parser-sass dependencies
+60 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/package.json
+61 silly cache add args [ 'fis-sass@^3.1.0', null ]
+62 verbose cache add spec fis-sass@^3.1.0
+63 silly cache add parsed spec Result {
+63 silly cache add   raw: 'fis-sass@^3.1.0',
+63 silly cache add   scope: null,
+63 silly cache add   name: 'fis-sass',
+63 silly cache add   rawSpec: '^3.1.0',
+63 silly cache add   spec: '>=3.1.0 <4.0.0',
+63 silly cache add   type: 'range' }
+64 silly addNamed fis-sass@>=3.1.0 <4.0.0
+65 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for fis-sass
+66 silly addNameRange { name: 'fis-sass', range: '>=3.1.0 <4.0.0', hasData: false }
+67 silly mapToRegistry name fis-sass
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry http://registry.npm.taobao.org/
+70 silly mapToRegistry uri http://registry.npm.taobao.org/fis-sass
+71 verbose addNameRange registry:http://registry.npm.taobao.org/fis-sass not in flight; fetching
+72 verbose request uri http://registry.npm.taobao.org/fis-sass
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 20:55:38
+75 verbose etag "49da-CwZtLIp8mc6olMp9BeEwQA"
+76 http request GET http://registry.npm.taobao.org/fis-sass
+77 http 304 http://registry.npm.taobao.org/fis-sass
+78 verbose headers { date: 'Mon, 14 Mar 2016 12:55:38 GMT',
+78 verbose headers   connection: 'keep-alive',
+78 verbose headers   etag: '"49da-CwZtLIp8mc6olMp9BeEwQA"',
+78 verbose headers   'x-readtime': '25' }
+79 silly get cb [ 304,
+79 silly get   { date: 'Mon, 14 Mar 2016 12:55:38 GMT',
+79 silly get     connection: 'keep-alive',
+79 silly get     etag: '"49da-CwZtLIp8mc6olMp9BeEwQA"',
+79 silly get     'x-readtime': '25' } ]
+80 verbose etag http://registry.npm.taobao.org/fis-sass from cache
+81 verbose get saving fis-sass to /Users/baidu/.npm/registry.npm.taobao.org/fis-sass/.cache.json
+82 silly addNameRange number 2 { name: 'fis-sass', range: '>=3.1.0 <4.0.0', hasData: true }
+83 silly addNameRange versions [ 'fis-sass',
+83 silly addNameRange   [ '3.1.3',
+83 silly addNameRange     '3.1.2',
+83 silly addNameRange     '3.1.1',
+83 silly addNameRange     '3.1.0',
+83 silly addNameRange     '0.2.0',
+83 silly addNameRange     '0.2.0-beta',
+83 silly addNameRange     '0.1.17',
+83 silly addNameRange     '0.1.15',
+83 silly addNameRange     '0.1.14',
+83 silly addNameRange     '0.1.13',
+83 silly addNameRange     '0.1.12',
+83 silly addNameRange     '0.1.11',
+83 silly addNameRange     '0.1.10',
+83 silly addNameRange     '0.1.9',
+83 silly addNameRange     '0.1.8',
+83 silly addNameRange     '0.1.7',
+83 silly addNameRange     '0.1.4' ] ]
+84 silly addNamed fis-sass@3.1.3
+85 verbose addNamed "3.1.3" is a plain semver version for fis-sass
+86 silly cache afterAdd fis-sass@3.1.3
+87 verbose afterAdd /Users/baidu/.npm/fis-sass/3.1.3/package/package.json not in flight; writing
+88 verbose afterAdd /Users/baidu/.npm/fis-sass/3.1.3/package/package.json written
+89 silly install resolved [ { name: 'fis-sass',
+89 silly install resolved     version: '3.1.3',
+89 silly install resolved     libsass: '3.1.0',
+89 silly install resolved     description: 'Anothor libsass wrapper for node. Support sass syntax.',
+89 silly install resolved     main: 'lib/index.js',
+89 silly install resolved     scripts: { test: 'node test.js', install: 'node build.js' },
+89 silly install resolved     repository:
+89 silly install resolved      { type: 'git',
+89 silly install resolved        url: 'git+https://github.com/fis-dev/fis-sass.git' },
+89 silly install resolved     keywords: [ 'node', 'sass', 'fis' ],
+89 silly install resolved     author: { name: '2betop' },
+89 silly install resolved     license: 'MIT',
+89 silly install resolved     gypfile: true,
+89 silly install resolved     bugs: { url: 'https://github.com/fis-dev/fis-sass/issues' },
+89 silly install resolved     homepage: 'https://github.com/fis-dev/fis-sass',
+89 silly install resolved     dependencies: { chalk: '^0.5.1', nan: '^1.7.0', step: '0.0.5' },
+89 silly install resolved     bindingsCDN: 'http://fisstatic.duapp.com/addons/fis-sass/3.1.0/',
+89 silly install resolved     gitHead: '5b3fa6344dd0dfe0bb721d505c10e3324b0643ea',
+89 silly install resolved     _id: 'fis-sass@3.1.3',
+89 silly install resolved     _shasum: '620e13e335dc45b28a4c3675bfa865b16555ac84',
+89 silly install resolved     _from: 'fis-sass@>=3.1.0 <4.0.0',
+89 silly install resolved     _npmVersion: '2.1.6',
+89 silly install resolved     _nodeVersion: '0.10.30',
+89 silly install resolved     _npmUser: { name: '2betop', email: '2betop.cn@gmail.com' },
+89 silly install resolved     maintainers: [ [Object] ],
+89 silly install resolved     dist:
+89 silly install resolved      { shasum: '620e13e335dc45b28a4c3675bfa865b16555ac84',
+89 silly install resolved        size: 195041,
+89 silly install resolved        noattachment: false,
+89 silly install resolved        tarball: 'http://registry.npm.taobao.org/fis-sass/download/fis-sass-3.1.3.tgz' },
+89 silly install resolved     directories: {},
+89 silly install resolved     publish_time: 1427693730017,
+89 silly install resolved     _cnpm_publish_time: 1427693730017,
+89 silly install resolved     _resolved: 'http://registry.npm.taobao.org/fis-sass/download/fis-sass-3.1.3.tgz',
+89 silly install resolved     readme: 'ERROR: No README data found!' } ]
+90 info install fis-sass@3.1.3 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+91 info installOne fis-sass@3.1.3
+92 verbose installOne of fis-sass to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass not in flight; installing
+93 verbose lock using /Users/baidu/.npm/_locks/fis-sass-95d649cf87acf4d3.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+94 silly install write writing fis-sass 3.1.3 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+95 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass
+96 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+97 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+98 verbose tar unpack /Users/baidu/.npm/fis-sass/3.1.3/package.tgz
+99 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+100 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass is being purged
+101 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+102 silly gunzTarPerm modes [ '755', '644' ]
+103 silly gunzTarPerm extractEntry package.json
+104 silly gunzTarPerm extractEntry .npmignore
+105 silly gunzTarPerm extractEntry README.md
+106 silly gunzTarPerm extractEntry util.js
+107 silly gunzTarPerm extractEntry test.js
+108 silly gunzTarPerm extractEntry _index.js
+109 silly gunzTarPerm extractEntry build.js
+110 silly gunzTarPerm extractEntry expect.css
+111 silly gunzTarPerm extractEntry lib/index.js
+112 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+113 silly gunzTarPerm extractEntry lib/binding.cpp
+114 silly gunzTarPerm modified mode [ 'lib/binding.cpp', 436, 420 ]
+115 silly gunzTarPerm extractEntry lib/sync.cc
+116 silly gunzTarPerm extractEntry lib/sync.h
+117 silly gunzTarPerm extractEntry map.json
+118 silly gunzTarPerm extractEntry binding.gyp
+119 silly gunzTarPerm extractEntry src/binding.cpp
+120 silly gunzTarPerm extractEntry src/libsass/.npmignore
+121 silly gunzTarPerm extractEntry src/libsass/LICENSE
+122 silly gunzTarPerm extractEntry src/libsass/mapping.hpp
+123 silly gunzTarPerm extractEntry src/libsass/.travis.yml
+124 silly gunzTarPerm extractEntry src/libsass/COPYING
+125 silly gunzTarPerm extractEntry src/libsass/INSTALL
+126 silly gunzTarPerm extractEntry src/libsass/.editorconfig
+127 silly gunzTarPerm extractEntry src/libsass/Makefile
+128 silly gunzTarPerm extractEntry src/libsass/Makefile.am
+129 silly gunzTarPerm extractEntry src/libsass/Readme.md
+130 silly gunzTarPerm extractEntry src/libsass/appveyor.yml
+131 silly gunzTarPerm extractEntry src/libsass/ast.cpp
+132 silly gunzTarPerm extractEntry src/libsass/ast.hpp
+133 silly gunzTarPerm extractEntry src/libsass/ast_def_macros.hpp
+134 silly gunzTarPerm extractEntry src/libsass/ast_factory.hpp
+135 silly gunzTarPerm extractEntry src/libsass/ast_fwd_decl.hpp
+136 silly gunzTarPerm extractEntry src/libsass/b64/cencode.h
+137 silly gunzTarPerm extractEntry src/libsass/b64/encode.h
+138 silly gunzTarPerm extractEntry src/libsass/backtrace.hpp
+139 silly gunzTarPerm extractEntry src/libsass/base64vlq.cpp
+140 silly gunzTarPerm extractEntry src/libsass/base64vlq.hpp
+141 silly gunzTarPerm extractEntry src/libsass/bind.cpp
+142 silly gunzTarPerm extractEntry src/libsass/bind.hpp
+143 silly gunzTarPerm extractEntry src/libsass/cencode.c
+144 silly gunzTarPerm extractEntry src/libsass/color_names.hpp
+145 silly gunzTarPerm extractEntry src/libsass/configure.ac
+146 silly gunzTarPerm extractEntry src/libsass/constants.cpp
+147 silly gunzTarPerm extractEntry src/libsass/constants.hpp
+148 silly gunzTarPerm extractEntry src/libsass/context.cpp
+149 silly gunzTarPerm extractEntry src/libsass/context.hpp
+150 silly gunzTarPerm extractEntry src/libsass/contextualize.cpp
+151 silly gunzTarPerm extractEntry src/libsass/contextualize.hpp
+152 silly gunzTarPerm extractEntry src/libsass/copy_c_str.cpp
+153 silly gunzTarPerm extractEntry src/libsass/copy_c_str.hpp
+154 silly gunzTarPerm extractEntry src/libsass/debug.hpp
+155 silly gunzTarPerm extractEntry src/libsass/environment.hpp
+156 silly gunzTarPerm extractEntry src/libsass/error_handling.cpp
+157 silly gunzTarPerm extractEntry src/libsass/error_handling.hpp
+158 silly gunzTarPerm extractEntry src/libsass/eval.cpp
+159 silly gunzTarPerm extractEntry src/libsass/eval.hpp
+160 silly gunzTarPerm extractEntry src/libsass/expand.cpp
+161 silly gunzTarPerm extractEntry src/libsass/expand.hpp
+162 silly gunzTarPerm extractEntry src/libsass/extconf.rb
+163 silly gunzTarPerm extractEntry src/libsass/extend.cpp
+164 silly gunzTarPerm extractEntry src/libsass/extend.hpp
+165 silly gunzTarPerm extractEntry src/libsass/file.cpp
+166 silly gunzTarPerm extractEntry src/libsass/file.hpp
+167 silly gunzTarPerm extractEntry src/libsass/functions.cpp
+168 silly gunzTarPerm extractEntry src/libsass/functions.hpp
+169 silly gunzTarPerm extractEntry src/libsass/inspect.cpp
+170 silly gunzTarPerm extractEntry src/libsass/inspect.hpp
+171 silly gunzTarPerm extractEntry src/libsass/json.cpp
+172 silly gunzTarPerm extractEntry src/libsass/json.hpp
+173 silly gunzTarPerm extractEntry src/libsass/kwd_arg_macros.hpp
+174 silly gunzTarPerm extractEntry src/libsass/m4/.gitkeep
+175 silly gunzTarPerm extractEntry src/libsass/.gitattributes
+176 silly gunzTarPerm extractEntry src/libsass/memory_manager.hpp
+177 silly gunzTarPerm extractEntry src/libsass/node.cpp
+178 silly gunzTarPerm extractEntry src/libsass/node.hpp
+179 silly gunzTarPerm extractEntry src/libsass/operation.hpp
+180 silly gunzTarPerm extractEntry src/libsass/output_compressed.cpp
+181 silly gunzTarPerm extractEntry src/libsass/output_compressed.hpp
+182 silly gunzTarPerm extractEntry src/libsass/output_nested.cpp
+183 silly gunzTarPerm extractEntry src/libsass/output_nested.hpp
+184 silly gunzTarPerm extractEntry src/libsass/parser.cpp
+185 silly gunzTarPerm extractEntry src/libsass/parser.hpp
+186 silly gunzTarPerm extractEntry src/libsass/paths.hpp
+187 silly gunzTarPerm extractEntry src/libsass/position.hpp
+188 silly gunzTarPerm extractEntry src/libsass/posix/getopt.c
+189 silly gunzTarPerm extractEntry src/libsass/posix/getopt.h
+190 silly gunzTarPerm extractEntry src/libsass/prelexer.cpp
+191 silly gunzTarPerm extractEntry src/libsass/prelexer.hpp
+192 silly gunzTarPerm extractEntry src/libsass/remove_placeholders.cpp
+193 silly gunzTarPerm extractEntry src/libsass/remove_placeholders.hpp
+194 silly gunzTarPerm extractEntry src/libsass/res/resource.rc
+195 silly gunzTarPerm extractEntry src/libsass/sass.cpp
+196 silly gunzTarPerm extractEntry src/libsass/sass.h
+197 silly gunzTarPerm extractEntry src/libsass/sass2scss.cpp
+198 silly gunzTarPerm extractEntry src/libsass/sass2scss.h
+199 silly gunzTarPerm extractEntry src/libsass/sass_context.cpp
+200 silly gunzTarPerm extractEntry src/libsass/sass_context.h
+201 silly gunzTarPerm extractEntry src/libsass/sass_functions.cpp
+202 silly gunzTarPerm extractEntry src/libsass/sass_functions.h
+203 silly gunzTarPerm extractEntry src/libsass/sass_interface.cpp
+204 silly gunzTarPerm extractEntry src/libsass/sass_interface.h
+205 silly gunzTarPerm extractEntry src/libsass/sass_util.cpp
+206 silly gunzTarPerm extractEntry src/libsass/sass_util.hpp
+207 silly gunzTarPerm extractEntry src/libsass/sass_values.cpp
+208 silly gunzTarPerm extractEntry src/libsass/sass_values.h
+209 silly gunzTarPerm extractEntry src/libsass/script/bootstrap
+210 silly gunzTarPerm extractEntry src/libsass/script/branding
+211 silly gunzTarPerm extractEntry src/libsass/script/ci-build-libsass
+212 silly gunzTarPerm extractEntry src/libsass/script/ci-install-compiler
+213 silly gunzTarPerm extractEntry src/libsass/script/ci-install-deps
+214 silly gunzTarPerm extractEntry src/libsass/script/ci-report-coverage
+215 silly gunzTarPerm extractEntry src/libsass/script/coveralls-debug
+216 silly gunzTarPerm extractEntry src/libsass/script/spec
+217 silly gunzTarPerm extractEntry src/libsass/script/tap-driver
+218 silly gunzTarPerm extractEntry src/libsass/script/tap-runner
+219 silly gunzTarPerm extractEntry src/libsass/source_map.cpp
+220 silly gunzTarPerm extractEntry src/libsass/source_map.hpp
+221 silly gunzTarPerm extractEntry src/libsass/subset_map.hpp
+222 silly gunzTarPerm extractEntry src/libsass/support/libsass.pc.in
+223 silly gunzTarPerm extractEntry src/libsass/test/test_node.cpp
+224 silly gunzTarPerm extractEntry src/libsass/test/test_paths.cpp
+225 silly gunzTarPerm extractEntry src/libsass/test/test_selector_difference.cpp
+226 silly gunzTarPerm extractEntry src/libsass/test/test_specificity.cpp
+227 silly gunzTarPerm extractEntry src/libsass/test/test_subset_map.cpp
+228 silly gunzTarPerm extractEntry src/libsass/test/test_superselector.cpp
+229 silly gunzTarPerm extractEntry src/libsass/test/test_unification.cpp
+230 silly gunzTarPerm extractEntry src/libsass/test-driver
+231 silly gunzTarPerm extractEntry src/libsass/to_c.cpp
+232 silly gunzTarPerm extractEntry src/libsass/to_c.hpp
+233 silly gunzTarPerm extractEntry src/libsass/to_string.cpp
+234 silly gunzTarPerm extractEntry src/libsass/to_string.hpp
+235 silly gunzTarPerm extractEntry src/libsass/token.hpp
+236 silly gunzTarPerm extractEntry src/libsass/units.cpp
+237 silly gunzTarPerm extractEntry src/libsass/units.hpp
+238 silly gunzTarPerm extractEntry src/libsass/utf8/checked.h
+239 silly gunzTarPerm extractEntry src/libsass/utf8/core.h
+240 silly gunzTarPerm extractEntry src/libsass/utf8/unchecked.h
+241 silly gunzTarPerm extractEntry src/libsass/utf8.h
+242 silly gunzTarPerm extractEntry src/libsass/utf8_string.cpp
+243 silly gunzTarPerm extractEntry src/libsass/utf8_string.hpp
+244 silly gunzTarPerm extractEntry src/libsass/util.cpp
+245 silly gunzTarPerm extractEntry src/libsass/util.hpp
+246 silly gunzTarPerm extractEntry src/libsass/win/libsass.filters
+247 silly gunzTarPerm extractEntry src/libsass/win/libsass.sln
+248 silly gunzTarPerm extractEntry src/libsass/win/libsass.vcxproj
+249 silly gunzTarPerm extractEntry src/sass_context_wrapper.cpp
+250 silly gunzTarPerm modified mode [ 'src/sass_context_wrapper.cpp', 436, 420 ]
+251 silly gunzTarPerm extractEntry src/sass_context_wrapper.h
+252 silly gunzTarPerm modified mode [ 'src/sass_context_wrapper.h', 436, 420 ]
+253 silly gunzTarPerm extractEntry .gitmodules
+254 silly gunzTarPerm extractEntry test.sass
+255 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/package.json
+256 info preinstall fis-sass@3.1.3
+257 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/package.json
+258 silly prepareForInstallMany adding chalk@^0.5.1 from fis-sass dependencies
+259 silly prepareForInstallMany adding nan@^1.7.0 from fis-sass dependencies
+260 silly prepareForInstallMany adding step@0.0.5 from fis-sass dependencies
+261 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/package.json
+262 silly cache add args [ 'chalk@^0.5.1', null ]
+263 verbose cache add spec chalk@^0.5.1
+264 silly cache add args [ 'nan@^1.7.0', null ]
+265 verbose cache add spec nan@^1.7.0
+266 silly cache add parsed spec Result {
+266 silly cache add   raw: 'chalk@^0.5.1',
+266 silly cache add   scope: null,
+266 silly cache add   name: 'chalk',
+266 silly cache add   rawSpec: '^0.5.1',
+266 silly cache add   spec: '>=0.5.1 <0.6.0',
+266 silly cache add   type: 'range' }
+267 silly addNamed chalk@>=0.5.1 <0.6.0
+268 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for chalk
+269 silly addNameRange { name: 'chalk', range: '>=0.5.1 <0.6.0', hasData: false }
+270 silly mapToRegistry name chalk
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry http://registry.npm.taobao.org/
+273 silly mapToRegistry uri http://registry.npm.taobao.org/chalk
+274 verbose addNameRange registry:http://registry.npm.taobao.org/chalk not in flight; fetching
+275 silly cache add parsed spec Result {
+275 silly cache add   raw: 'nan@^1.7.0',
+275 silly cache add   scope: null,
+275 silly cache add   name: 'nan',
+275 silly cache add   rawSpec: '^1.7.0',
+275 silly cache add   spec: '>=1.7.0 <2.0.0',
+275 silly cache add   type: 'range' }
+276 silly addNamed nan@>=1.7.0 <2.0.0
+277 verbose addNamed ">=1.7.0 <2.0.0" is a valid semver range for nan
+278 silly addNameRange { name: 'nan', range: '>=1.7.0 <2.0.0', hasData: false }
+279 silly mapToRegistry name nan
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry http://registry.npm.taobao.org/
+282 silly mapToRegistry uri http://registry.npm.taobao.org/nan
+283 verbose addNameRange registry:http://registry.npm.taobao.org/nan not in flight; fetching
+284 silly cache add args [ 'step@0.0.5', null ]
+285 verbose cache add spec step@0.0.5
+286 silly cache add parsed spec Result {
+286 silly cache add   raw: 'step@0.0.5',
+286 silly cache add   scope: null,
+286 silly cache add   name: 'step',
+286 silly cache add   rawSpec: '0.0.5',
+286 silly cache add   spec: '0.0.5',
+286 silly cache add   type: 'version' }
+287 silly addNamed step@0.0.5
+288 verbose addNamed "0.0.5" is a plain semver version for step
+289 silly mapToRegistry name step
+290 silly mapToRegistry using default registry
+291 silly mapToRegistry registry http://registry.npm.taobao.org/
+292 silly mapToRegistry uri http://registry.npm.taobao.org/step
+293 verbose addNameVersion registry:http://registry.npm.taobao.org/step not in flight; fetching
+294 verbose request uri http://registry.npm.taobao.org/chalk
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 20:55:39
+297 verbose etag "7346-EA0+pyopJ+8DX4hb634l1Q"
+298 http request GET http://registry.npm.taobao.org/chalk
+299 verbose request uri http://registry.npm.taobao.org/step
+300 verbose request no auth needed
+301 info attempt registry request try #1 at 20:55:39
+302 verbose etag "1e9f-m8M9rasineTJGslhnOgZuA"
+303 http request GET http://registry.npm.taobao.org/step
+304 verbose request uri http://registry.npm.taobao.org/nan
+305 verbose request no auth needed
+306 info attempt registry request try #1 at 20:55:39
+307 verbose etag "1aa86-dZsykXMh+SVq2wB0u8m21w"
+308 http request GET http://registry.npm.taobao.org/nan
+309 http 304 http://registry.npm.taobao.org/step
+310 verbose headers { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+310 verbose headers   connection: 'keep-alive',
+310 verbose headers   etag: '"1e9f-m8M9rasineTJGslhnOgZuA"',
+310 verbose headers   'x-readtime': '14' }
+311 silly get cb [ 304,
+311 silly get   { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+311 silly get     connection: 'keep-alive',
+311 silly get     etag: '"1e9f-m8M9rasineTJGslhnOgZuA"',
+311 silly get     'x-readtime': '14' } ]
+312 verbose etag http://registry.npm.taobao.org/step from cache
+313 verbose get saving step to /Users/baidu/.npm/registry.npm.taobao.org/step/.cache.json
+314 silly cache afterAdd step@0.0.5
+315 verbose afterAdd /Users/baidu/.npm/step/0.0.5/package/package.json not in flight; writing
+316 verbose afterAdd /Users/baidu/.npm/step/0.0.5/package/package.json written
+317 http 304 http://registry.npm.taobao.org/chalk
+318 verbose headers { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+318 verbose headers   connection: 'keep-alive',
+318 verbose headers   etag: '"7346-EA0+pyopJ+8DX4hb634l1Q"',
+318 verbose headers   'x-readtime': '83' }
+319 silly get cb [ 304,
+319 silly get   { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+319 silly get     connection: 'keep-alive',
+319 silly get     etag: '"7346-EA0+pyopJ+8DX4hb634l1Q"',
+319 silly get     'x-readtime': '83' } ]
+320 verbose etag http://registry.npm.taobao.org/chalk from cache
+321 verbose get saving chalk to /Users/baidu/.npm/registry.npm.taobao.org/chalk/.cache.json
+322 silly addNameRange number 2 { name: 'chalk', range: '>=0.5.1 <0.6.0', hasData: true }
+323 silly addNameRange versions [ 'chalk',
+323 silly addNameRange   [ '1.1.1',
+323 silly addNameRange     '1.1.0',
+323 silly addNameRange     '1.0.0',
+323 silly addNameRange     '0.5.1',
+323 silly addNameRange     '0.5.0',
+323 silly addNameRange     '0.4.0',
+323 silly addNameRange     '0.3.0',
+323 silly addNameRange     '0.2.1',
+323 silly addNameRange     '0.2.0',
+323 silly addNameRange     '0.1.1',
+323 silly addNameRange     '0.1.0' ] ]
+324 silly addNamed chalk@0.5.1
+325 verbose addNamed "0.5.1" is a plain semver version for chalk
+326 silly cache afterAdd chalk@0.5.1
+327 verbose afterAdd /Users/baidu/.npm/chalk/0.5.1/package/package.json not in flight; writing
+328 verbose afterAdd /Users/baidu/.npm/chalk/0.5.1/package/package.json written
+329 http 304 http://registry.npm.taobao.org/nan
+330 verbose headers { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+330 verbose headers   connection: 'keep-alive',
+330 verbose headers   etag: '"1aa86-dZsykXMh+SVq2wB0u8m21w"',
+330 verbose headers   'x-readtime': '180' }
+331 silly get cb [ 304,
+331 silly get   { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+331 silly get     connection: 'keep-alive',
+331 silly get     etag: '"1aa86-dZsykXMh+SVq2wB0u8m21w"',
+331 silly get     'x-readtime': '180' } ]
+332 verbose etag http://registry.npm.taobao.org/nan from cache
+333 verbose get saving nan to /Users/baidu/.npm/registry.npm.taobao.org/nan/.cache.json
+334 silly addNameRange number 2 { name: 'nan', range: '>=1.7.0 <2.0.0', hasData: true }
+335 silly addNameRange versions [ 'nan',
+335 silly addNameRange   [ '2.2.0',
+335 silly addNameRange     '2.1.0',
+335 silly addNameRange     '2.0.9',
+335 silly addNameRange     '2.0.8',
+335 silly addNameRange     '2.0.7',
+335 silly addNameRange     '2.0.6',
+335 silly addNameRange     '2.0.5',
+335 silly addNameRange     '2.0.4',
+335 silly addNameRange     '2.0.3',
+335 silly addNameRange     '2.0.2',
+335 silly addNameRange     '2.0.1',
+335 silly addNameRange     '2.0.0',
+335 silly addNameRange     '1.9.0',
+335 silly addNameRange     '1.8.4',
+335 silly addNameRange     '1.8.3',
+335 silly addNameRange     '1.8.2',
+335 silly addNameRange     '1.8.1',
+335 silly addNameRange     '1.8.0',
+335 silly addNameRange     '1.7.0',
+335 silly addNameRange     '1.6.2',
+335 silly addNameRange     '1.6.1',
+335 silly addNameRange     '1.5.3',
+335 silly addNameRange     '1.6.0',
+335 silly addNameRange     '1.5.2',
+335 silly addNameRange     '1.5.1',
+335 silly addNameRange     '1.4.3',
+335 silly addNameRange     '1.4.2',
+335 silly addNameRange     '1.5.0',
+335 silly addNameRange     '1.4.1',
+335 silly addNameRange     '1.4.0',
+335 silly addNameRange     '1.3.0',
+335 silly addNameRange     '1.2.0',
+335 silly addNameRange     '1.1.2',
+335 silly addNameRange     '1.1.1',
+335 silly addNameRange     '1.1.0',
+335 silly addNameRange     '1.0.0',
+335 silly addNameRange     '0.8.0',
+335 silly addNameRange     '0.7.1',
+335 silly addNameRange     '0.7.0',
+335 silly addNameRange     '0.6.0',
+335 silly addNameRange     '0.5.2',
+335 silly addNameRange     '0.5.1',
+335 silly addNameRange     '0.5.0',
+335 silly addNameRange     '0.4.4',
+335 silly addNameRange     '0.4.3',
+335 silly addNameRange     '0.4.2',
+335 silly addNameRange     '0.4.1',
+335 silly addNameRange     '0.4.0',
+335 silly addNameRange     '0.3.2',
+335 silly addNameRange     '0.3.1',
+335 silly addNameRange     '0.3.0',
+335 silly addNameRange     '0.3.0-wip2',
+335 silly addNameRange     '0.3.0-wip' ] ]
+336 silly addNamed nan@1.9.0
+337 verbose addNamed "1.9.0" is a plain semver version for nan
+338 silly cache afterAdd nan@1.9.0
+339 verbose afterAdd /Users/baidu/.npm/nan/1.9.0/package/package.json not in flight; writing
+340 verbose afterAdd /Users/baidu/.npm/nan/1.9.0/package/package.json written
+341 silly install resolved [ { name: 'step',
+341 silly install resolved     version: '0.0.5',
+341 silly install resolved     description: 'A simple control-flow library for node.JS that makes parallel execution, serial execution, and error handling painless.',
+341 silly install resolved     engine: [ 'node >=0.2.0' ],
+341 silly install resolved     author: { name: 'Tim Caswell', email: 'tim@creationix.com' },
+341 silly install resolved     repository: { type: 'git', url: 'git://github.com/creationix/step.git' },
+341 silly install resolved     main: 'lib/step',
+341 silly install resolved     _npmUser: { name: 'creationix', email: 'tim@creationix.com' },
+341 silly install resolved     _id: 'step@0.0.5',
+341 silly install resolved     dependencies: {},
+341 silly install resolved     devDependencies: {},
+341 silly install resolved     engines: { node: '*' },
+341 silly install resolved     _engineSupported: true,
+341 silly install resolved     _npmVersion: '1.0.99',
+341 silly install resolved     _nodeVersion: 'v0.4.12',
+341 silly install resolved     _defaultsLoaded: true,
+341 silly install resolved     dist:
+341 silly install resolved      { shasum: '5e662f15f9ba2ece9c3a9b0e2553d1986b6ba44c',
+341 silly install resolved        tarball: 'http://registry.npmjs.org/step/-/step-0.0.5.tgz' },
+341 silly install resolved     maintainers: [ [Object] ],
+341 silly install resolved     directories: {},
+341 silly install resolved     _shasum: '5e662f15f9ba2ece9c3a9b0e2553d1986b6ba44c',
+341 silly install resolved     _resolved: 'https://registry.npmjs.org/step/-/step-0.0.5.tgz',
+341 silly install resolved     _from: 'step@0.0.5',
+341 silly install resolved     bugs: { url: 'https://github.com/creationix/step/issues' },
+341 silly install resolved     readme: 'ERROR: No README data found!',
+341 silly install resolved     homepage: 'https://github.com/creationix/step#readme' },
+341 silly install resolved   { name: 'chalk',
+341 silly install resolved     version: '0.5.1',
+341 silly install resolved     description: 'Terminal string styling done right. Created because the `colors` module does some really horrible things.',
+341 silly install resolved     license: 'MIT',
+341 silly install resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/chalk.git' },
+341 silly install resolved     maintainers: [ [Object], [Object] ],
+341 silly install resolved     engines: { node: '>=0.10.0' },
+341 silly install resolved     scripts: { test: 'mocha', bench: 'matcha benchmark.js' },
+341 silly install resolved     files: [ 'index.js' ],
+341 silly install resolved     keywords:
+341 silly install resolved      [ 'color',
+341 silly install resolved        'colour',
+341 silly install resolved        'colors',
+341 silly install resolved        'terminal',
+341 silly install resolved        'console',
+341 silly install resolved        'cli',
+341 silly install resolved        'string',
+341 silly install resolved        'ansi',
+341 silly install resolved        'styles',
+341 silly install resolved        'tty',
+341 silly install resolved        'formatting',
+341 silly install resolved        'rgb',
+341 silly install resolved        '256',
+341 silly install resolved        'shell',
+341 silly install resolved        'xterm',
+341 silly install resolved        'log',
+341 silly install resolved        'logging',
+341 silly install resolved        'command-line',
+341 silly install resolved        'text' ],
+341 silly install resolved     dependencies:
+341 silly install resolved      { 'ansi-styles': '^1.1.0',
+341 silly install resolved        'escape-string-regexp': '^1.0.0',
+341 silly install resolved        'has-ansi': '^0.1.0',
+341 silly install resolved        'strip-ansi': '^0.3.0',
+341 silly install resolved        'supports-color': '^0.2.0' },
+341 silly install resolved     devDependencies: { matcha: '^0.5.0', mocha: '*' },
+341 silly install resolved     gitHead: '994758f01293f1fdcf63282e9917cb9f2cfbdaac',
+341 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/chalk/issues' },
+341 silly install resolved     homepage: 'https://github.com/sindresorhus/chalk',
+341 silly install resolved     _id: 'chalk@0.5.1',
+341 silly install resolved     _shasum: '663b3a648b68b55d04690d49167aa837858f2174',
+341 silly install resolved     _from: 'chalk@>=0.5.1 <0.6.0',
+341 silly install resolved     _npmVersion: '1.4.14',
+341 silly install resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+341 silly install resolved     dist:
+341 silly install resolved      { shasum: '663b3a648b68b55d04690d49167aa837858f2174',
+341 silly install resolved        tarball: 'http://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz' },
+341 silly install resolved     directories: {},
+341 silly install resolved     _resolved: 'https://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz',
+341 silly install resolved     readme: 'ERROR: No README data found!' },
+341 silly install resolved   { name: 'nan',
+341 silly install resolved     version: '1.9.0',
+341 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+341 silly install resolved     main: 'include_dirs.js',
+341 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+341 silly install resolved     scripts:
+341 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+341 silly install resolved        'rebuild-tests': 'pangyp rebuild --msvs_version=2013 --directory test' },
+341 silly install resolved     contributors:
+341 silly install resolved      [ [Object],
+341 silly install resolved        [Object],
+341 silly install resolved        [Object],
+341 silly install resolved        [Object],
+341 silly install resolved        [Object],
+341 silly install resolved        [Object],
+341 silly install resolved        [Object] ],
+341 silly install resolved     devDependencies:
+341 silly install resolved      { bindings: '~1.2.1',
+341 silly install resolved        'node-gyp': '~2.0.2',
+341 silly install resolved        pangyp: '~2.2.0',
+341 silly install resolved        tap: '~0.7.1',
+341 silly install resolved        xtend: '~4.0.0' },
+341 silly install resolved     license: 'MIT',
+341 silly install resolved     gitHead: '399b3a54ada39a7cf7a11978ea727eae3686666e',
+341 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+341 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+341 silly install resolved     _id: 'nan@1.9.0',
+341 silly install resolved     _shasum: '1a9cd2755609766f5c291e4194fce39fde286515',
+341 silly install resolved     _from: 'nan@>=1.7.0 <2.0.0',
+341 silly install resolved     _npmVersion: '2.13.3',
+341 silly install resolved     _nodeVersion: '0.12.2',
+341 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+341 silly install resolved     maintainers: [ [Object], [Object] ],
+341 silly install resolved     dist:
+341 silly install resolved      { shasum: '1a9cd2755609766f5c291e4194fce39fde286515',
+341 silly install resolved        size: 101755,
+341 silly install resolved        noattachment: false,
+341 silly install resolved        tarball: 'http://registry.npm.taobao.org/nan/download/nan-1.9.0.tgz' },
+341 silly install resolved     directories: {},
+341 silly install resolved     publish_time: 1438341496059,
+341 silly install resolved     _cnpm_publish_time: 1438341496059,
+341 silly install resolved     _resolved: 'http://registry.npm.taobao.org/nan/download/nan-1.9.0.tgz',
+341 silly install resolved     readme: 'ERROR: No README data found!' } ]
+342 info install step@0.0.5 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+343 info install chalk@0.5.1 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+344 info install nan@1.9.0 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+345 info installOne step@0.0.5
+346 verbose installOne of step to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass not in flight; installing
+347 info installOne chalk@0.5.1
+348 verbose installOne of chalk to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass not in flight; installing
+349 info installOne nan@1.9.0
+350 verbose installOne of nan to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass not in flight; installing
+351 verbose lock using /Users/baidu/.npm/_locks/step-b01f584afde274ed.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step
+352 verbose lock using /Users/baidu/.npm/_locks/chalk-f85505927d57351d.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+353 silly install write writing step 0.0.5 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step
+354 silly install write writing chalk 0.5.1 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+355 verbose lock using /Users/baidu/.npm/_locks/nan-bd5940addffcbb95.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan
+356 silly install write writing nan 1.9.0 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan
+357 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step
+358 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+359 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+360 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step
+361 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan
+362 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+363 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+364 verbose tar unpack /Users/baidu/.npm/step/0.0.5/package.tgz
+365 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step
+366 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step is being purged
+367 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step
+368 verbose tar unpack /Users/baidu/.npm/chalk/0.5.1/package.tgz
+369 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+370 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk is being purged
+371 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+372 silly gunzTarPerm modes [ '755', '644' ]
+373 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+374 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan
+375 silly gunzTarPerm modes [ '755', '644' ]
+376 verbose tar unpack /Users/baidu/.npm/nan/1.9.0/package.tgz
+377 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan
+378 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan is being purged
+379 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan
+380 silly gunzTarPerm modes [ '755', '644' ]
+381 silly gunzTarPerm extractEntry package.json
+382 silly gunzTarPerm extractEntry package.json
+383 silly gunzTarPerm extractEntry package.json
+384 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+385 silly gunzTarPerm extractEntry README.markdown
+386 silly gunzTarPerm extractEntry lib/step.js
+387 silly gunzTarPerm extractEntry index.js
+388 silly gunzTarPerm extractEntry readme.md
+389 silly gunzTarPerm extractEntry README.md
+390 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+391 silly gunzTarPerm extractEntry include_dirs.js
+392 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+393 silly gunzTarPerm extractEntry test/helper.js
+394 silly gunzTarPerm extractEntry test/fnTest.js
+395 silly gunzTarPerm extractEntry LICENSE.md
+396 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+397 silly gunzTarPerm extractEntry .dntrc
+398 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+399 silly gunzTarPerm extractEntry appveyor.yml
+400 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+401 silly gunzTarPerm extractEntry nan.h
+402 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+403 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+404 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+405 silly gunzTarPerm extractEntry test/callbackTest.js
+406 silly gunzTarPerm extractEntry test/groupTest.js
+407 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+408 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+409 silly gunzTarPerm extractEntry nan_new.h
+410 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+411 silly gunzTarPerm extractEntry test/parallelTest.js
+412 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/package.json
+413 silly gunzTarPerm extractEntry nan_string_bytes.h
+414 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+415 silly gunzTarPerm extractEntry CHANGELOG.md
+416 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+417 silly gunzTarPerm extractEntry test/errorTest.js
+418 info preinstall chalk@0.5.1
+419 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/package.json
+420 silly gunzTarPerm extractEntry tools/node_modules/commander/package.json
+421 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/package.json', 436, 420 ]
+422 silly gunzTarPerm extractEntry tools/node_modules/commander/LICENSE
+423 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/LICENSE', 436, 420 ]
+424 silly prepareForInstallMany adding ansi-styles@^1.1.0 from chalk dependencies
+425 silly prepareForInstallMany adding escape-string-regexp@^1.0.0 from chalk dependencies
+426 silly prepareForInstallMany adding has-ansi@^0.1.0 from chalk dependencies
+427 silly prepareForInstallMany adding strip-ansi@^0.3.0 from chalk dependencies
+428 silly prepareForInstallMany adding supports-color@^0.2.0 from chalk dependencies
+429 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/package.json
+430 silly gunzTarPerm extractEntry tools/node_modules/commander/index.js
+431 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/index.js', 436, 420 ]
+432 silly gunzTarPerm extractEntry tools/node_modules/commander/History.md
+433 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/History.md', 436, 420 ]
+434 silly cache add args [ 'ansi-styles@^1.1.0', null ]
+435 verbose cache add spec ansi-styles@^1.1.0
+436 silly cache add args [ 'escape-string-regexp@^1.0.0', null ]
+437 verbose cache add spec escape-string-regexp@^1.0.0
+438 silly cache add parsed spec Result {
+438 silly cache add   raw: 'ansi-styles@^1.1.0',
+438 silly cache add   scope: null,
+438 silly cache add   name: 'ansi-styles',
+438 silly cache add   rawSpec: '^1.1.0',
+438 silly cache add   spec: '>=1.1.0 <2.0.0',
+438 silly cache add   type: 'range' }
+439 silly addNamed ansi-styles@>=1.1.0 <2.0.0
+440 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for ansi-styles
+441 silly addNameRange { name: 'ansi-styles', range: '>=1.1.0 <2.0.0', hasData: false }
+442 silly mapToRegistry name ansi-styles
+443 silly mapToRegistry using default registry
+444 silly mapToRegistry registry http://registry.npm.taobao.org/
+445 silly mapToRegistry uri http://registry.npm.taobao.org/ansi-styles
+446 verbose addNameRange registry:http://registry.npm.taobao.org/ansi-styles not in flight; fetching
+447 silly cache add parsed spec Result {
+447 silly cache add   raw: 'escape-string-regexp@^1.0.0',
+447 silly cache add   scope: null,
+447 silly cache add   name: 'escape-string-regexp',
+447 silly cache add   rawSpec: '^1.0.0',
+447 silly cache add   spec: '>=1.0.0 <2.0.0',
+447 silly cache add   type: 'range' }
+448 silly addNamed escape-string-regexp@>=1.0.0 <2.0.0
+449 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for escape-string-regexp
+450 silly addNameRange { name: 'escape-string-regexp',
+450 silly addNameRange   range: '>=1.0.0 <2.0.0',
+450 silly addNameRange   hasData: false }
+451 silly mapToRegistry name escape-string-regexp
+452 silly mapToRegistry using default registry
+453 silly mapToRegistry registry http://registry.npm.taobao.org/
+454 silly mapToRegistry uri http://registry.npm.taobao.org/escape-string-regexp
+455 verbose addNameRange registry:http://registry.npm.taobao.org/escape-string-regexp not in flight; fetching
+456 silly cache add args [ 'has-ansi@^0.1.0', null ]
+457 verbose cache add spec has-ansi@^0.1.0
+458 silly cache add parsed spec Result {
+458 silly cache add   raw: 'has-ansi@^0.1.0',
+458 silly cache add   scope: null,
+458 silly cache add   name: 'has-ansi',
+458 silly cache add   rawSpec: '^0.1.0',
+458 silly cache add   spec: '>=0.1.0 <0.2.0',
+458 silly cache add   type: 'range' }
+459 silly addNamed has-ansi@>=0.1.0 <0.2.0
+460 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for has-ansi
+461 silly addNameRange { name: 'has-ansi', range: '>=0.1.0 <0.2.0', hasData: false }
+462 silly mapToRegistry name has-ansi
+463 silly mapToRegistry using default registry
+464 silly mapToRegistry registry http://registry.npm.taobao.org/
+465 silly mapToRegistry uri http://registry.npm.taobao.org/has-ansi
+466 verbose addNameRange registry:http://registry.npm.taobao.org/has-ansi not in flight; fetching
+467 silly cache add args [ 'strip-ansi@^0.3.0', null ]
+468 verbose cache add spec strip-ansi@^0.3.0
+469 silly cache add parsed spec Result {
+469 silly cache add   raw: 'strip-ansi@^0.3.0',
+469 silly cache add   scope: null,
+469 silly cache add   name: 'strip-ansi',
+469 silly cache add   rawSpec: '^0.3.0',
+469 silly cache add   spec: '>=0.3.0 <0.4.0',
+469 silly cache add   type: 'range' }
+470 silly addNamed strip-ansi@>=0.3.0 <0.4.0
+471 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for strip-ansi
+472 silly addNameRange { name: 'strip-ansi', range: '>=0.3.0 <0.4.0', hasData: false }
+473 silly mapToRegistry name strip-ansi
+474 silly mapToRegistry using default registry
+475 silly mapToRegistry registry http://registry.npm.taobao.org/
+476 silly mapToRegistry uri http://registry.npm.taobao.org/strip-ansi
+477 verbose addNameRange registry:http://registry.npm.taobao.org/strip-ansi not in flight; fetching
+478 silly cache add args [ 'supports-color@^0.2.0', null ]
+479 verbose cache add spec supports-color@^0.2.0
+480 silly cache add parsed spec Result {
+480 silly cache add   raw: 'supports-color@^0.2.0',
+480 silly cache add   scope: null,
+480 silly cache add   name: 'supports-color',
+480 silly cache add   rawSpec: '^0.2.0',
+480 silly cache add   spec: '>=0.2.0 <0.3.0',
+480 silly cache add   type: 'range' }
+481 silly addNamed supports-color@>=0.2.0 <0.3.0
+482 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for supports-color
+483 silly addNameRange { name: 'supports-color',
+483 silly addNameRange   range: '>=0.2.0 <0.3.0',
+483 silly addNameRange   hasData: false }
+484 silly mapToRegistry name supports-color
+485 silly mapToRegistry using default registry
+486 silly mapToRegistry registry http://registry.npm.taobao.org/
+487 silly mapToRegistry uri http://registry.npm.taobao.org/supports-color
+488 verbose addNameRange registry:http://registry.npm.taobao.org/supports-color not in flight; fetching
+489 silly gunzTarPerm extractEntry tools/node_modules/commander/Readme.md
+490 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/Readme.md', 436, 420 ]
+491 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/package.json
+492 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/package.json',
+492 silly gunzTarPerm   436,
+492 silly gunzTarPerm   420 ]
+493 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/.npmignore
+494 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/.npmignore',
+494 silly gunzTarPerm   436,
+494 silly gunzTarPerm   420 ]
+495 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/README.md
+496 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/README.md',
+496 silly gunzTarPerm   436,
+496 silly gunzTarPerm   420 ]
+497 verbose request uri http://registry.npm.taobao.org/has-ansi
+498 verbose request no auth needed
+499 info attempt registry request try #1 at 20:55:39
+500 verbose etag "28ad-I6h5O8lyzfPqiuIVKJkfYQ"
+501 http request GET http://registry.npm.taobao.org/has-ansi
+502 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/LICENSE
+503 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/LICENSE',
+503 silly gunzTarPerm   436,
+503 silly gunzTarPerm   420 ]
+504 verbose request uri http://registry.npm.taobao.org/escape-string-regexp
+505 verbose request no auth needed
+506 info attempt registry request try #1 at 20:55:39
+507 verbose etag "25e1-V7KcGXK5XiDQSfBFGFyQzg"
+508 http request GET http://registry.npm.taobao.org/escape-string-regexp
+509 verbose request uri http://registry.npm.taobao.org/strip-ansi
+510 verbose request no auth needed
+511 info attempt registry request try #1 at 20:55:39
+512 verbose etag "42d6-wOhbAN8Mj3ZzDk2Ot8OmbA"
+513 http request GET http://registry.npm.taobao.org/strip-ansi
+514 verbose request uri http://registry.npm.taobao.org/supports-color
+515 verbose request no auth needed
+516 info attempt registry request try #1 at 20:55:39
+517 verbose etag "542f-SV+NOYq5MZw4btBWn98b1g"
+518 http request GET http://registry.npm.taobao.org/supports-color
+519 verbose request uri http://registry.npm.taobao.org/ansi-styles
+520 verbose request no auth needed
+521 info attempt registry request try #1 at 20:55:39
+522 verbose etag "4517-GQBoXU24wmwNWpT/tzU7xQ"
+523 http request GET http://registry.npm.taobao.org/ansi-styles
+524 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/index.js
+525 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/index.js',
+525 silly gunzTarPerm   436,
+525 silly gunzTarPerm   420 ]
+526 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/.travis.yml
+527 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/.travis.yml',
+527 silly gunzTarPerm   436,
+527 silly gunzTarPerm   420 ]
+528 silly gunzTarPerm extractEntry tools/node_modules/glob/package.json
+529 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/package.json', 436, 420 ]
+530 silly gunzTarPerm extractEntry tools/node_modules/glob/README.md
+531 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/README.md', 436, 420 ]
+532 silly gunzTarPerm extractEntry tools/node_modules/glob/LICENSE
+533 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/LICENSE', 436, 420 ]
+534 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step/package.json
+535 silly gunzTarPerm extractEntry tools/node_modules/glob/common.js
+536 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/common.js', 436, 420 ]
+537 silly gunzTarPerm extractEntry tools/node_modules/glob/glob.js
+538 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/glob.js', 436, 420 ]
+539 info preinstall step@0.0.5
+540 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step/package.json
+541 silly gunzTarPerm extractEntry tools/node_modules/glob/sync.js
+542 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/sync.js', 436, 420 ]
+543 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/package.json
+544 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/package.json',
+544 silly gunzTarPerm   436,
+544 silly gunzTarPerm   420 ]
+545 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/README.md
+546 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/README.md',
+546 silly gunzTarPerm   436,
+546 silly gunzTarPerm   420 ]
+547 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/LICENSE
+548 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/LICENSE',
+548 silly gunzTarPerm   436,
+548 silly gunzTarPerm   420 ]
+549 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/inflight.js
+550 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/inflight.js',
+550 silly gunzTarPerm   436,
+550 silly gunzTarPerm   420 ]
+551 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/test.js
+552 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/test.js',
+552 silly gunzTarPerm   436,
+552 silly gunzTarPerm   420 ]
+553 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/.eslintrc
+554 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/.eslintrc',
+554 silly gunzTarPerm   436,
+554 silly gunzTarPerm   420 ]
+555 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/package.json
+556 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/package.json',
+556 silly gunzTarPerm   436,
+556 silly gunzTarPerm   420 ]
+557 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/README.md
+558 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/README.md',
+558 silly gunzTarPerm   436,
+558 silly gunzTarPerm   420 ]
+559 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/LICENSE
+560 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/LICENSE',
+560 silly gunzTarPerm   436,
+560 silly gunzTarPerm   420 ]
+561 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js
+562 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js',
+562 silly gunzTarPerm   436,
+562 silly gunzTarPerm   420 ]
+563 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/basic.js
+564 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/basic.js',
+564 silly gunzTarPerm   436,
+564 silly gunzTarPerm   420 ]
+565 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/package.json
+566 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/package.json',
+566 silly gunzTarPerm   436,
+566 silly gunzTarPerm   420 ]
+567 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/README.md
+568 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/README.md',
+568 silly gunzTarPerm   436,
+568 silly gunzTarPerm   420 ]
+569 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/LICENSE
+570 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/LICENSE',
+570 silly gunzTarPerm   436,
+570 silly gunzTarPerm   420 ]
+571 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/inherits.js
+572 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/inherits.js',
+572 silly gunzTarPerm   436,
+572 silly gunzTarPerm   420 ]
+573 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/inherits_browser.js
+574 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/inherits_browser.js',
+574 silly gunzTarPerm   436,
+574 silly gunzTarPerm   420 ]
+575 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/test.js
+576 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/test.js',
+576 silly gunzTarPerm   436,
+576 silly gunzTarPerm   420 ]
+577 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/package.json
+578 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/package.json',
+578 silly gunzTarPerm   436,
+578 silly gunzTarPerm   420 ]
+579 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/README.md
+580 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/README.md',
+580 silly gunzTarPerm   436,
+580 silly gunzTarPerm   420 ]
+581 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/LICENSE
+582 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/LICENSE',
+582 silly gunzTarPerm   436,
+582 silly gunzTarPerm   420 ]
+583 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/browser.js
+584 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/browser.js',
+584 silly gunzTarPerm   436,
+584 silly gunzTarPerm   420 ]
+585 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/minimatch.js
+586 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/minimatch.js',
+586 silly gunzTarPerm   436,
+586 silly gunzTarPerm   420 ]
+587 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/package.json
+588 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/package.json',
+588 silly gunzTarPerm   436,
+588 silly gunzTarPerm   420 ]
+589 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.npmignore
+590 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.npmignore',
+590 silly gunzTarPerm   436,
+590 silly gunzTarPerm   420 ]
+591 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/README.md
+592 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/README.md',
+592 silly gunzTarPerm   436,
+592 silly gunzTarPerm   420 ]
+593 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/example.js
+594 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/example.js',
+594 silly gunzTarPerm   436,
+594 silly gunzTarPerm   420 ]
+595 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js
+596 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js',
+596 silly gunzTarPerm   436,
+596 silly gunzTarPerm   420 ]
+597 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.travis.yml
+598 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.travis.yml',
+598 silly gunzTarPerm   436,
+598 silly gunzTarPerm   420 ]
+599 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-comparison.js
+600 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-comparison.js',
+600 silly gunzTarPerm   436,
+600 silly gunzTarPerm   420 ]
+601 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/same-type.js
+602 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/same-type.js',
+602 silly gunzTarPerm   436,
+602 silly gunzTarPerm   420 ]
+603 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/dollar.js
+604 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/dollar.js',
+604 silly gunzTarPerm   436,
+604 silly gunzTarPerm   420 ]
+605 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/empty-option.js
+606 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/empty-option.js',
+606 silly gunzTarPerm   436,
+606 silly gunzTarPerm   420 ]
+607 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/pad.js
+608 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/pad.js',
+608 silly gunzTarPerm   436,
+608 silly gunzTarPerm   420 ]
+609 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/order.js
+610 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/order.js',
+610 silly gunzTarPerm   436,
+610 silly gunzTarPerm   420 ]
+611 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/nested.js
+612 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/nested.js',
+612 silly gunzTarPerm   436,
+612 silly gunzTarPerm   420 ]
+613 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/sequence.js
+614 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/sequence.js',
+614 silly gunzTarPerm   436,
+614 silly gunzTarPerm   420 ]
+615 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/negative-increment.js
+616 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/negative-increment.js',
+616 silly gunzTarPerm   436,
+616 silly gunzTarPerm   420 ]
+617 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-results.txt
+618 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-results.txt',
+618 silly gunzTarPerm   436,
+618 silly gunzTarPerm   420 ]
+619 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/generate.sh
+620 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/generate.sh',
+620 silly gunzTarPerm   436,
+620 silly gunzTarPerm   420 ]
+621 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/cases.txt
+622 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/cases.txt',
+622 silly gunzTarPerm   436,
+622 silly gunzTarPerm   420 ]
+623 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json
+624 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json',
+624 silly gunzTarPerm   436,
+624 silly gunzTarPerm   420 ]
+625 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.npmignore
+626 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.npmignore',
+626 silly gunzTarPerm   436,
+626 silly gunzTarPerm   420 ]
+627 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/README.md
+628 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/README.md',
+628 silly gunzTarPerm   436,
+628 silly gunzTarPerm   420 ]
+629 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js
+630 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js',
+630 silly gunzTarPerm   436,
+630 silly gunzTarPerm   420 ]
+631 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/index.js
+632 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/index.js',
+632 silly gunzTarPerm   436,
+632 silly gunzTarPerm   420 ]
+633 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.travis.yml
+634 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.travis.yml',
+634 silly gunzTarPerm   436,
+634 silly gunzTarPerm   420 ]
+635 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/Makefile
+636 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/Makefile',
+636 silly gunzTarPerm   436,
+636 silly gunzTarPerm   420 ]
+637 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/balanced.js
+638 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/balanced.js',
+638 silly gunzTarPerm   436,
+638 silly gunzTarPerm   420 ]
+639 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json
+640 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json',
+640 silly gunzTarPerm   436,
+640 silly gunzTarPerm   420 ]
+641 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/LICENSE
+642 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/LICENSE',
+642 silly gunzTarPerm   436,
+642 silly gunzTarPerm   420 ]
+643 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/index.js
+644 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/index.js',
+644 silly gunzTarPerm   436,
+644 silly gunzTarPerm   420 ]
+645 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/.travis.yml
+646 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/.travis.yml',
+646 silly gunzTarPerm   436,
+646 silly gunzTarPerm   420 ]
+647 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/README.markdown
+648 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/README.markdown',
+648 silly gunzTarPerm   436,
+648 silly gunzTarPerm   420 ]
+649 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js
+650 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js',
+650 silly gunzTarPerm   436,
+650 silly gunzTarPerm   420 ]
+651 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/map.js
+652 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/map.js',
+652 silly gunzTarPerm   436,
+652 silly gunzTarPerm   420 ]
+653 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/package.json
+654 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/package.json',
+654 silly gunzTarPerm   436,
+654 silly gunzTarPerm   420 ]
+655 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/README.md
+656 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/README.md',
+656 silly gunzTarPerm   436,
+656 silly gunzTarPerm   420 ]
+657 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/LICENSE
+658 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/LICENSE', 436, 420 ]
+659 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/once.js
+660 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/once.js', 436, 420 ]
+661 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/test/once.js
+662 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/test/once.js',
+662 silly gunzTarPerm   436,
+662 silly gunzTarPerm   420 ]
+663 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/package.json
+664 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/package.json',
+664 silly gunzTarPerm   436,
+664 silly gunzTarPerm   420 ]
+665 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/README.md
+666 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/README.md',
+666 silly gunzTarPerm   436,
+666 silly gunzTarPerm   420 ]
+667 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/LICENSE
+668 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/LICENSE',
+668 silly gunzTarPerm   436,
+668 silly gunzTarPerm   420 ]
+669 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/wrappy.js
+670 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/wrappy.js',
+670 silly gunzTarPerm   436,
+670 silly gunzTarPerm   420 ]
+671 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/test/basic.js
+672 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/test/basic.js',
+672 silly gunzTarPerm   436,
+672 silly gunzTarPerm   420 ]
+673 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/path-is-absolute/package.json
+674 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/path-is-absolute/package.json',
+674 silly gunzTarPerm   436,
+674 silly gunzTarPerm   420 ]
+675 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/path-is-absolute/index.js
+676 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/path-is-absolute/index.js',
+676 silly gunzTarPerm   436,
+676 silly gunzTarPerm   420 ]
+677 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/path-is-absolute/license
+678 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/path-is-absolute/license',
+678 silly gunzTarPerm   436,
+678 silly gunzTarPerm   420 ]
+679 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/path-is-absolute/readme.md
+680 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/path-is-absolute/readme.md',
+680 silly gunzTarPerm   436,
+680 silly gunzTarPerm   420 ]
+681 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step/package.json
+682 silly install resolved []
+683 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step
+684 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step
+685 info linkStuff step@0.0.5
+686 silly linkStuff step@0.0.5 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules as its parent node_modules
+687 verbose linkBins step@0.0.5
+688 verbose linkMans step@0.0.5
+689 verbose rebuildBundles step@0.0.5
+690 info install step@0.0.5
+691 info postinstall step@0.0.5
+692 verbose unlock done using /Users/baidu/.npm/_locks/step-b01f584afde274ed.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/step
+693 http 304 http://registry.npm.taobao.org/escape-string-regexp
+694 verbose headers { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+694 verbose headers   connection: 'keep-alive',
+694 verbose headers   etag: '"25e1-V7KcGXK5XiDQSfBFGFyQzg"',
+694 verbose headers   'x-readtime': '32' }
+695 silly get cb [ 304,
+695 silly get   { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+695 silly get     connection: 'keep-alive',
+695 silly get     etag: '"25e1-V7KcGXK5XiDQSfBFGFyQzg"',
+695 silly get     'x-readtime': '32' } ]
+696 verbose etag http://registry.npm.taobao.org/escape-string-regexp from cache
+697 verbose get saving escape-string-regexp to /Users/baidu/.npm/registry.npm.taobao.org/escape-string-regexp/.cache.json
+698 silly addNameRange number 2 { name: 'escape-string-regexp',
+698 silly addNameRange   range: '>=1.0.0 <2.0.0',
+698 silly addNameRange   hasData: true }
+699 silly addNameRange versions [ 'escape-string-regexp',
+699 silly addNameRange   [ '1.0.5', '1.0.4', '1.0.3', '1.0.2', '1.0.1', '1.0.0' ] ]
+700 silly addNamed escape-string-regexp@1.0.5
+701 verbose addNamed "1.0.5" is a plain semver version for escape-string-regexp
+702 http 304 http://registry.npm.taobao.org/strip-ansi
+703 verbose headers { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+703 verbose headers   connection: 'keep-alive',
+703 verbose headers   etag: '"42d6-wOhbAN8Mj3ZzDk2Ot8OmbA"',
+703 verbose headers   'x-readtime': '32' }
+704 silly get cb [ 304,
+704 silly get   { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+704 silly get     connection: 'keep-alive',
+704 silly get     etag: '"42d6-wOhbAN8Mj3ZzDk2Ot8OmbA"',
+704 silly get     'x-readtime': '32' } ]
+705 verbose etag http://registry.npm.taobao.org/strip-ansi from cache
+706 verbose get saving strip-ansi to /Users/baidu/.npm/registry.npm.taobao.org/strip-ansi/.cache.json
+707 silly cache afterAdd escape-string-regexp@1.0.5
+708 verbose afterAdd /Users/baidu/.npm/escape-string-regexp/1.0.5/package/package.json not in flight; writing
+709 silly addNameRange number 2 { name: 'strip-ansi', range: '>=0.3.0 <0.4.0', hasData: true }
+710 silly addNameRange versions [ 'strip-ansi',
+710 silly addNameRange   [ '3.0.1',
+710 silly addNameRange     '3.0.0',
+710 silly addNameRange     '2.0.1',
+710 silly addNameRange     '2.0.0',
+710 silly addNameRange     '1.0.0',
+710 silly addNameRange     '0.3.0',
+710 silly addNameRange     '0.2.2',
+710 silly addNameRange     '0.2.1',
+710 silly addNameRange     '0.2.0',
+710 silly addNameRange     '0.1.1',
+710 silly addNameRange     '0.1.0' ] ]
+711 silly addNamed strip-ansi@0.3.0
+712 verbose addNamed "0.3.0" is a plain semver version for strip-ansi
+713 verbose afterAdd /Users/baidu/.npm/escape-string-regexp/1.0.5/package/package.json written
+714 silly cache afterAdd strip-ansi@0.3.0
+715 verbose afterAdd /Users/baidu/.npm/strip-ansi/0.3.0/package/package.json not in flight; writing
+716 verbose afterAdd /Users/baidu/.npm/strip-ansi/0.3.0/package/package.json written
+717 http 304 http://registry.npm.taobao.org/has-ansi
+718 verbose headers { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+718 verbose headers   connection: 'keep-alive',
+718 verbose headers   etag: '"28ad-I6h5O8lyzfPqiuIVKJkfYQ"',
+718 verbose headers   'x-readtime': '34' }
+719 silly get cb [ 304,
+719 silly get   { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+719 silly get     connection: 'keep-alive',
+719 silly get     etag: '"28ad-I6h5O8lyzfPqiuIVKJkfYQ"',
+719 silly get     'x-readtime': '34' } ]
+720 verbose etag http://registry.npm.taobao.org/has-ansi from cache
+721 verbose get saving has-ansi to /Users/baidu/.npm/registry.npm.taobao.org/has-ansi/.cache.json
+722 http 304 http://registry.npm.taobao.org/supports-color
+723 verbose headers { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+723 verbose headers   connection: 'keep-alive',
+723 verbose headers   etag: '"542f-SV+NOYq5MZw4btBWn98b1g"',
+723 verbose headers   'x-readtime': '22' }
+724 silly get cb [ 304,
+724 silly get   { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+724 silly get     connection: 'keep-alive',
+724 silly get     etag: '"542f-SV+NOYq5MZw4btBWn98b1g"',
+724 silly get     'x-readtime': '22' } ]
+725 verbose etag http://registry.npm.taobao.org/supports-color from cache
+726 verbose get saving supports-color to /Users/baidu/.npm/registry.npm.taobao.org/supports-color/.cache.json
+727 silly addNameRange number 2 { name: 'has-ansi', range: '>=0.1.0 <0.2.0', hasData: true }
+728 silly addNameRange versions [ 'has-ansi',
+728 silly addNameRange   [ '2.0.0', '1.0.3', '1.0.2', '1.0.1', '1.0.0', '0.1.0' ] ]
+729 silly addNamed has-ansi@0.1.0
+730 verbose addNamed "0.1.0" is a plain semver version for has-ansi
+731 silly addNameRange number 2 { name: 'supports-color',
+731 silly addNameRange   range: '>=0.2.0 <0.3.0',
+731 silly addNameRange   hasData: true }
+732 silly addNameRange versions [ 'supports-color',
+732 silly addNameRange   [ '3.1.2',
+732 silly addNameRange     '3.1.1',
+732 silly addNameRange     '3.1.0',
+732 silly addNameRange     '3.0.1',
+732 silly addNameRange     '3.0.0',
+732 silly addNameRange     '2.0.0',
+732 silly addNameRange     '1.3.1',
+732 silly addNameRange     '1.3.0',
+732 silly addNameRange     '1.2.1',
+732 silly addNameRange     '1.2.0',
+732 silly addNameRange     '1.1.0',
+732 silly addNameRange     '1.0.0',
+732 silly addNameRange     '0.2.0' ] ]
+733 silly addNamed supports-color@0.2.0
+734 verbose addNamed "0.2.0" is a plain semver version for supports-color
+735 silly cache afterAdd has-ansi@0.1.0
+736 verbose afterAdd /Users/baidu/.npm/has-ansi/0.1.0/package/package.json not in flight; writing
+737 silly cache afterAdd supports-color@0.2.0
+738 verbose afterAdd /Users/baidu/.npm/supports-color/0.2.0/package/package.json not in flight; writing
+739 verbose afterAdd /Users/baidu/.npm/has-ansi/0.1.0/package/package.json written
+740 verbose afterAdd /Users/baidu/.npm/supports-color/0.2.0/package/package.json written
+741 http 304 http://registry.npm.taobao.org/ansi-styles
+742 verbose headers { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+742 verbose headers   connection: 'keep-alive',
+742 verbose headers   etag: '"4517-GQBoXU24wmwNWpT/tzU7xQ"',
+742 verbose headers   'x-readtime': '29' }
+743 silly get cb [ 304,
+743 silly get   { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+743 silly get     connection: 'keep-alive',
+743 silly get     etag: '"4517-GQBoXU24wmwNWpT/tzU7xQ"',
+743 silly get     'x-readtime': '29' } ]
+744 verbose etag http://registry.npm.taobao.org/ansi-styles from cache
+745 verbose get saving ansi-styles to /Users/baidu/.npm/registry.npm.taobao.org/ansi-styles/.cache.json
+746 silly addNameRange number 2 { name: 'ansi-styles', range: '>=1.1.0 <2.0.0', hasData: true }
+747 silly addNameRange versions [ 'ansi-styles',
+747 silly addNameRange   [ '2.2.0',
+747 silly addNameRange     '2.1.0',
+747 silly addNameRange     '2.0.1',
+747 silly addNameRange     '2.0.0',
+747 silly addNameRange     '1.1.0',
+747 silly addNameRange     '1.0.0',
+747 silly addNameRange     '0.2.0',
+747 silly addNameRange     '0.1.2',
+747 silly addNameRange     '0.1.1',
+747 silly addNameRange     '0.1.0' ] ]
+748 silly addNamed ansi-styles@1.1.0
+749 verbose addNamed "1.1.0" is a plain semver version for ansi-styles
+750 silly cache afterAdd ansi-styles@1.1.0
+751 verbose afterAdd /Users/baidu/.npm/ansi-styles/1.1.0/package/package.json not in flight; writing
+752 verbose afterAdd /Users/baidu/.npm/ansi-styles/1.1.0/package/package.json written
+753 silly install resolved [ { name: 'escape-string-regexp',
+753 silly install resolved     version: '1.0.5',
+753 silly install resolved     description: 'Escape RegExp special characters',
+753 silly install resolved     license: 'MIT',
+753 silly install resolved     repository:
+753 silly install resolved      { type: 'git',
+753 silly install resolved        url: 'git+https://github.com/sindresorhus/escape-string-regexp.git' },
+753 silly install resolved     author:
+753 silly install resolved      { name: 'Sindre Sorhus',
+753 silly install resolved        email: 'sindresorhus@gmail.com',
+753 silly install resolved        url: 'sindresorhus.com' },
+753 silly install resolved     maintainers: [ [Object], [Object] ],
+753 silly install resolved     engines: { node: '>=0.8.0' },
+753 silly install resolved     scripts: { test: 'xo && ava' },
+753 silly install resolved     files: [ 'index.js' ],
+753 silly install resolved     keywords:
+753 silly install resolved      [ 'escape',
+753 silly install resolved        'regex',
+753 silly install resolved        'regexp',
+753 silly install resolved        're',
+753 silly install resolved        'regular',
+753 silly install resolved        'expression',
+753 silly install resolved        'string',
+753 silly install resolved        'str',
+753 silly install resolved        'special',
+753 silly install resolved        'characters' ],
+753 silly install resolved     devDependencies: { ava: '*', xo: '*' },
+753 silly install resolved     gitHead: 'db124a3e1aae9d692c4899e42a5c6c3e329eaa20',
+753 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/escape-string-regexp/issues' },
+753 silly install resolved     homepage: 'https://github.com/sindresorhus/escape-string-regexp',
+753 silly install resolved     _id: 'escape-string-regexp@1.0.5',
+753 silly install resolved     _shasum: '1b61c0562190a8dff6ae3bb2cf0200ca130b86d4',
+753 silly install resolved     _from: 'escape-string-regexp@>=1.0.0 <2.0.0',
+753 silly install resolved     _npmVersion: '2.14.12',
+753 silly install resolved     _nodeVersion: '4.2.6',
+753 silly install resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+753 silly install resolved     dist:
+753 silly install resolved      { shasum: '1b61c0562190a8dff6ae3bb2cf0200ca130b86d4',
+753 silly install resolved        size: 1578,
+753 silly install resolved        noattachment: false,
+753 silly install resolved        tarball: 'http://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz' },
+753 silly install resolved     _npmOperationalInternal:
+753 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+753 silly install resolved        tmp: 'tmp/escape-string-regexp-1.0.5.tgz_1456059312074_0.7245344955008477' },
+753 silly install resolved     directories: {},
+753 silly install resolved     publish_time: 1456059317074,
+753 silly install resolved     _cnpm_publish_time: 1456059317074,
+753 silly install resolved     _resolved: 'http://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz',
+753 silly install resolved     readme: 'ERROR: No README data found!' },
+753 silly install resolved   { name: 'strip-ansi',
+753 silly install resolved     version: '0.3.0',
+753 silly install resolved     description: 'Strip ANSI escape codes',
+753 silly install resolved     license: 'MIT',
+753 silly install resolved     bin: { 'strip-ansi': 'cli.js' },
+753 silly install resolved     repository:
+753 silly install resolved      { type: 'git',
+753 silly install resolved        url: 'git://github.com/sindresorhus/strip-ansi.git' },
+753 silly install resolved     author:
+753 silly install resolved      { name: 'Sindre Sorhus',
+753 silly install resolved        email: 'sindresorhus@gmail.com',
+753 silly install resolved        url: 'http://sindresorhus.com' },
+753 silly install resolved     engines: { node: '>=0.10.0' },
+753 silly install resolved     scripts: { test: 'mocha' },
+753 silly install resolved     files: [ 'index.js', 'cli.js' ],
+753 silly install resolved     keywords:
+753 silly install resolved      [ 'strip',
+753 silly install resolved        'trim',
+753 silly install resolved        'remove',
+753 silly install resolved        'ansi',
+753 silly install resolved        'styles',
+753 silly install resolved        'color',
+753 silly install resolved        'colour',
+753 silly install resolved        'colors',
+753 silly install resolved        'terminal',
+753 silly install resolved        'console',
+753 silly install resolved        'cli',
+753 silly install resolved        'string',
+753 silly install resolved        'tty',
+753 silly install resolved        'escape',
+753 silly install resolved        'formatting',
+753 silly install resolved        'rgb',
+753 silly install resolved        '256',
+753 silly install resolved        'shell',
+753 silly install resolved        'xterm',
+753 silly install resolved        'log',
+753 silly install resolved        'logging',
+753 silly install resolved        'command-line',
+753 silly install resolved        'text' ],
+753 silly install resolved     dependencies: { 'ansi-regex': '^0.2.1' },
+753 silly install resolved     devDependencies: { mocha: '*' },
+753 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/strip-ansi/issues' },
+753 silly install resolved     homepage: 'https://github.com/sindresorhus/strip-ansi',
+753 silly install resolved     _id: 'strip-ansi@0.3.0',
+753 silly install resolved     _shasum: '25f48ea22ca79187f3174a4db8759347bb126220',
+753 silly install resolved     _from: 'strip-ansi@>=0.3.0 <0.4.0',
+753 silly install resolved     _npmVersion: '1.4.9',
+753 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+753 silly install resolved     maintainers: [ [Object] ],
+753 silly install resolved     dist:
+753 silly install resolved      { shasum: '25f48ea22ca79187f3174a4db8759347bb126220',
+753 silly install resolved        tarball: 'http://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz' },
+753 silly install resolved     directories: {},
+753 silly install resolved     _resolved: 'https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz',
+753 silly install resolved     readme: 'ERROR: No README data found!' },
+753 silly install resolved   { name: 'has-ansi',
+753 silly install resolved     version: '0.1.0',
+753 silly install resolved     description: 'Check if a string has ANSI escape codes',
+753 silly install resolved     license: 'MIT',
+753 silly install resolved     repository:
+753 silly install resolved      { type: 'git',
+753 silly install resolved        url: 'git://github.com/sindresorhus/has-ansi.git' },
+753 silly install resolved     bin: { 'has-ansi': 'cli.js' },
+753 silly install resolved     author:
+753 silly install resolved      { name: 'Sindre Sorhus',
+753 silly install resolved        email: 'sindresorhus@gmail.com',
+753 silly install resolved        url: 'http://sindresorhus.com' },
+753 silly install resolved     engines: { node: '>=0.10.0' },
+753 silly install resolved     scripts: { test: 'mocha' },
+753 silly install resolved     files: [ 'index.js', 'cli.js' ],
+753 silly install resolved     keywords:
+753 silly install resolved      [ 'cli',
+753 silly install resolved        'bin',
+753 silly install resolved        'ansi',
+753 silly install resolved        'styles',
+753 silly install resolved        'color',
+753 silly install resolved        'colour',
+753 silly install resolved        'colors',
+753 silly install resolved        'terminal',
+753 silly install resolved        'console',
+753 silly install resolved        'string',
+753 silly install resolved        'tty',
+753 silly install resolved        'escape',
+753 silly install resolved        'shell',
+753 silly install resolved        'xterm',
+753 silly install resolved        'command-line',
+753 silly install resolved        'text',
+753 silly install resolved        'regex',
+753 silly install resolved        'regexp',
+753 silly install resolved        're',
+753 silly install resolved        'match',
+753 silly install resolved        'test',
+753 silly install resolved        'find',
+753 silly install resolved        'pattern',
+753 silly install resolved        'has' ],
+753 silly install resolved     dependencies: { 'ansi-regex': '^0.2.0' },
+753 silly install resolved     devDependencies: { mocha: '*' },
+753 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/has-ansi/issues' },
+753 silly install resolved     homepage: 'https://github.com/sindresorhus/has-ansi',
+753 silly install resolved     _id: 'has-ansi@0.1.0',
+753 silly install resolved     _shasum: '84f265aae8c0e6a88a12d7022894b7568894c62e',
+753 silly install resolved     _from: 'has-ansi@>=0.1.0 <0.2.0',
+753 silly install resolved     _npmVersion: '1.4.9',
+753 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+753 silly install resolved     maintainers: [ [Object] ],
+753 silly install resolved     dist:
+753 silly install resolved      { shasum: '84f265aae8c0e6a88a12d7022894b7568894c62e',
+753 silly install resolved        tarball: 'http://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz' },
+753 silly install resolved     directories: {},
+753 silly install resolved     _resolved: 'https://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz',
+753 silly install resolved     readme: 'ERROR: No README data found!' },
+753 silly install resolved   { name: 'supports-color',
+753 silly install resolved     version: '0.2.0',
+753 silly install resolved     description: 'Detect whether a terminal supports color',
+753 silly install resolved     license: 'MIT',
+753 silly install resolved     repository:
+753 silly install resolved      { type: 'git',
+753 silly install resolved        url: 'git://github.com/sindresorhus/supports-color.git' },
+753 silly install resolved     bin: { 'supports-color': 'cli.js' },
+753 silly install resolved     author:
+753 silly install resolved      { name: 'Sindre Sorhus',
+753 silly install resolved        email: 'sindresorhus@gmail.com',
+753 silly install resolved        url: 'http://sindresorhus.com' },
+753 silly install resolved     engines: { node: '>=0.10.0' },
+753 silly install resolved     scripts: { test: 'mocha' },
+753 silly install resolved     files: [ 'index.js', 'cli.js' ],
+753 silly install resolved     keywords:
+753 silly install resolved      [ 'cli',
+753 silly install resolved        'bin',
+753 silly install resolved        'color',
+753 silly install resolved        'colour',
+753 silly install resolved        'colors',
+753 silly install resolved        'terminal',
+753 silly install resolved        'console',
+753 silly install resolved        'cli',
+753 silly install resolved        'ansi',
+753 silly install resolved        'styles',
+753 silly install resolved        'tty',
+753 silly install resolved        'rgb',
+753 silly install resolved        '256',
+753 silly install resolved        'shell',
+753 silly install resolved        'xterm',
+753 silly install resolved        'command-line',
+753 silly install resolved        'support',
+753 silly install resolved        'supports',
+753 silly install resolved        'capability',
+753 silly install resolved        'detect' ],
+753 silly install resolved     devDependencies: { mocha: '*' },
+753 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/supports-color/issues' },
+753 silly install resolved     homepage: 'https://github.com/sindresorhus/supports-color',
+753 silly install resolved     _id: 'supports-color@0.2.0',
+753 silly install resolved     _shasum: 'd92de2694eb3f67323973d7ae3d8b55b4c22190a',
+753 silly install resolved     _from: 'supports-color@>=0.2.0 <0.3.0',
+753 silly install resolved     _npmVersion: '1.4.9',
+753 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+753 silly install resolved     maintainers: [ [Object] ],
+753 silly install resolved     dist:
+753 silly install resolved      { shasum: 'd92de2694eb3f67323973d7ae3d8b55b4c22190a',
+753 silly install resolved        tarball: 'http://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz' },
+753 silly install resolved     directories: {},
+753 silly install resolved     _resolved: 'https://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz',
+753 silly install resolved     readme: 'ERROR: No README data found!' },
+753 silly install resolved   { name: 'ansi-styles',
+753 silly install resolved     version: '1.1.0',
+753 silly install resolved     description: 'ANSI escape codes for styling strings in the terminal',
+753 silly install resolved     license: 'MIT',
+753 silly install resolved     repository:
+753 silly install resolved      { type: 'git',
+753 silly install resolved        url: 'git://github.com/sindresorhus/ansi-styles.git' },
+753 silly install resolved     author:
+753 silly install resolved      { name: 'Sindre Sorhus',
+753 silly install resolved        email: 'sindresorhus@gmail.com',
+753 silly install resolved        url: 'http://sindresorhus.com' },
+753 silly install resolved     engines: { node: '>=0.10.0' },
+753 silly install resolved     scripts: { test: 'mocha' },
+753 silly install resolved     files: [ 'index.js' ],
+753 silly install resolved     keywords:
+753 silly install resolved      [ 'ansi',
+753 silly install resolved        'styles',
+753 silly install resolved        'color',
+753 silly install resolved        'colour',
+753 silly install resolved        'colors',
+753 silly install resolved        'terminal',
+753 silly install resolved        'console',
+753 silly install resolved        'cli',
+753 silly install resolved        'string',
+753 silly install resolved        'tty',
+753 silly install resolved        'escape',
+753 silly install resolved        'formatting',
+753 silly install resolved        'rgb',
+753 silly install resolved        '256',
+753 silly install resolved        'shell',
+753 silly install resolved        'xterm',
+753 silly install resolved        'log',
+753 silly install resolved        'logging',
+753 silly install resolved        'command-line',
+753 silly install resolved        'text' ],
+753 silly install resolved     devDependencies: { mocha: '*' },
+753 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-styles/issues' },
+753 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-styles',
+753 silly install resolved     _id: 'ansi-styles@1.1.0',
+753 silly install resolved     _shasum: 'eaecbf66cd706882760b2f4691582b8f55d7a7de',
+753 silly install resolved     _from: 'ansi-styles@>=1.1.0 <2.0.0',
+753 silly install resolved     _npmVersion: '1.4.9',
+753 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+753 silly install resolved     maintainers: [ [Object] ],
+753 silly install resolved     dist:
+753 silly install resolved      { shasum: 'eaecbf66cd706882760b2f4691582b8f55d7a7de',
+753 silly install resolved        tarball: 'http://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz' },
+753 silly install resolved     directories: {},
+753 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz',
+753 silly install resolved     readme: 'ERROR: No README data found!' } ]
+754 info install escape-string-regexp@1.0.5 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+755 info install strip-ansi@0.3.0 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+756 info install has-ansi@0.1.0 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+757 info install supports-color@0.2.0 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+758 info install ansi-styles@1.1.0 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+759 info installOne escape-string-regexp@1.0.5
+760 verbose installOne of escape-string-regexp to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk not in flight; installing
+761 info installOne strip-ansi@0.3.0
+762 verbose installOne of strip-ansi to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk not in flight; installing
+763 info installOne has-ansi@0.1.0
+764 verbose installOne of has-ansi to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk not in flight; installing
+765 info installOne supports-color@0.2.0
+766 verbose installOne of supports-color to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk not in flight; installing
+767 info installOne ansi-styles@1.1.0
+768 verbose installOne of ansi-styles to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk not in flight; installing
+769 verbose lock using /Users/baidu/.npm/_locks/escape-string-regexp-6157fe57f441e16e.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp
+770 verbose lock using /Users/baidu/.npm/_locks/strip-ansi-b1d4d450abf91702.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+771 silly install write writing escape-string-regexp 1.0.5 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp
+772 silly install write writing strip-ansi 0.3.0 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+773 verbose lock using /Users/baidu/.npm/_locks/has-ansi-05eef85027d08465.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+774 verbose lock using /Users/baidu/.npm/_locks/supports-color-c992a79807172781.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color
+775 verbose lock using /Users/baidu/.npm/_locks/ansi-styles-cb0a61f43a41a71f.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles
+776 silly install write writing has-ansi 0.1.0 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+777 silly install write writing supports-color 0.2.0 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color
+778 silly install write writing ansi-styles 1.1.0 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles
+779 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp
+780 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+781 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+782 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp
+783 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+784 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles
+785 verbose tar unpack /Users/baidu/.npm/escape-string-regexp/1.0.5/package.tgz
+786 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp
+787 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp is being purged
+788 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp
+789 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color
+790 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+791 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+792 silly gunzTarPerm modes [ '755', '644' ]
+793 verbose tar unpack /Users/baidu/.npm/strip-ansi/0.3.0/package.tgz
+794 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+795 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi is being purged
+796 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+797 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+798 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+799 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+800 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles
+801 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+802 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color
+803 silly gunzTarPerm modes [ '755', '644' ]
+804 verbose tar unpack /Users/baidu/.npm/has-ansi/0.1.0/package.tgz
+805 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+806 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi is being purged
+807 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+808 verbose tar unpack /Users/baidu/.npm/ansi-styles/1.1.0/package.tgz
+809 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles
+810 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles is being purged
+811 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles
+812 verbose tar unpack /Users/baidu/.npm/supports-color/0.2.0/package.tgz
+813 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color
+814 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color is being purged
+815 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color
+816 silly gunzTarPerm modes [ '755', '644' ]
+817 silly gunzTarPerm modes [ '755', '644' ]
+818 silly gunzTarPerm modes [ '755', '644' ]
+819 silly gunzTarPerm extractEntry package.json
+820 silly gunzTarPerm extractEntry package.json
+821 silly gunzTarPerm extractEntry package.json
+822 silly gunzTarPerm extractEntry package.json
+823 silly gunzTarPerm extractEntry package.json
+824 silly gunzTarPerm extractEntry index.js
+825 silly gunzTarPerm extractEntry license
+826 silly gunzTarPerm extractEntry cli.js
+827 silly gunzTarPerm extractEntry index.js
+828 silly gunzTarPerm extractEntry cli.js
+829 silly gunzTarPerm extractEntry index.js
+830 silly gunzTarPerm extractEntry index.js
+831 silly gunzTarPerm extractEntry readme.md
+832 silly gunzTarPerm extractEntry cli.js
+833 silly gunzTarPerm extractEntry index.js
+834 silly gunzTarPerm extractEntry readme.md
+835 silly gunzTarPerm extractEntry readme.md
+836 silly gunzTarPerm extractEntry readme.md
+837 silly gunzTarPerm extractEntry readme.md
+838 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles/package.json
+839 info preinstall ansi-styles@1.1.0
+840 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/package.json
+841 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp/package.json
+842 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles/package.json
+843 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/package.json
+844 info preinstall strip-ansi@0.3.0
+845 info preinstall escape-string-regexp@1.0.5
+846 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color/package.json
+847 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/package.json
+848 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles/package.json
+849 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp/package.json
+850 info preinstall has-ansi@0.1.0
+851 info preinstall supports-color@0.2.0
+852 silly install resolved []
+853 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles
+854 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles
+855 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/package.json
+856 silly prepareForInstallMany adding ansi-regex@^0.2.1 from strip-ansi dependencies
+857 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/package.json
+858 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp/package.json
+859 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color/package.json
+860 info linkStuff ansi-styles@1.1.0
+861 silly linkStuff ansi-styles@1.1.0 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules as its parent node_modules
+862 verbose linkBins ansi-styles@1.1.0
+863 verbose linkMans ansi-styles@1.1.0
+864 verbose rebuildBundles ansi-styles@1.1.0
+865 silly prepareForInstallMany adding ansi-regex@^0.2.0 from has-ansi dependencies
+866 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/package.json
+867 silly install resolved []
+868 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp
+869 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp
+870 info install ansi-styles@1.1.0
+871 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color/package.json
+872 silly cache add args [ 'ansi-regex@^0.2.1', null ]
+873 verbose cache add spec ansi-regex@^0.2.1
+874 silly cache add parsed spec Result {
+874 silly cache add   raw: 'ansi-regex@^0.2.1',
+874 silly cache add   scope: null,
+874 silly cache add   name: 'ansi-regex',
+874 silly cache add   rawSpec: '^0.2.1',
+874 silly cache add   spec: '>=0.2.1 <0.3.0',
+874 silly cache add   type: 'range' }
+875 silly addNamed ansi-regex@>=0.2.1 <0.3.0
+876 verbose addNamed ">=0.2.1 <0.3.0" is a valid semver range for ansi-regex
+877 silly addNameRange { name: 'ansi-regex', range: '>=0.2.1 <0.3.0', hasData: false }
+878 silly mapToRegistry name ansi-regex
+879 silly mapToRegistry using default registry
+880 silly mapToRegistry registry http://registry.npm.taobao.org/
+881 silly mapToRegistry uri http://registry.npm.taobao.org/ansi-regex
+882 verbose addNameRange registry:http://registry.npm.taobao.org/ansi-regex not in flight; fetching
+883 info postinstall ansi-styles@1.1.0
+884 info linkStuff escape-string-regexp@1.0.5
+885 silly linkStuff escape-string-regexp@1.0.5 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules as its parent node_modules
+886 verbose unlock done using /Users/baidu/.npm/_locks/ansi-styles-cb0a61f43a41a71f.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/ansi-styles
+887 verbose linkBins escape-string-regexp@1.0.5
+888 verbose linkMans escape-string-regexp@1.0.5
+889 verbose rebuildBundles escape-string-regexp@1.0.5
+890 info install escape-string-regexp@1.0.5
+891 silly cache add args [ 'ansi-regex@^0.2.0', null ]
+892 verbose cache add spec ansi-regex@^0.2.0
+893 silly cache add parsed spec Result {
+893 silly cache add   raw: 'ansi-regex@^0.2.0',
+893 silly cache add   scope: null,
+893 silly cache add   name: 'ansi-regex',
+893 silly cache add   rawSpec: '^0.2.0',
+893 silly cache add   spec: '>=0.2.0 <0.3.0',
+893 silly cache add   type: 'range' }
+894 silly addNamed ansi-regex@>=0.2.0 <0.3.0
+895 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for ansi-regex
+896 silly addNameRange { name: 'ansi-regex', range: '>=0.2.0 <0.3.0', hasData: false }
+897 silly mapToRegistry name ansi-regex
+898 silly mapToRegistry using default registry
+899 silly mapToRegistry registry http://registry.npm.taobao.org/
+900 silly mapToRegistry uri http://registry.npm.taobao.org/ansi-regex
+901 verbose addNameRange registry:http://registry.npm.taobao.org/ansi-regex already in flight; waiting
+902 silly install resolved []
+903 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color
+904 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color
+905 info postinstall escape-string-regexp@1.0.5
+906 verbose request uri http://registry.npm.taobao.org/ansi-regex
+907 verbose request no auth needed
+908 info attempt registry request try #1 at 20:55:39
+909 verbose etag "2bd3-IbuMXvSuRlDLG65BkrzsZg"
+910 http request GET http://registry.npm.taobao.org/ansi-regex
+911 verbose unlock done using /Users/baidu/.npm/_locks/escape-string-regexp-6157fe57f441e16e.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/escape-string-regexp
+912 info linkStuff supports-color@0.2.0
+913 silly linkStuff supports-color@0.2.0 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules as its parent node_modules
+914 verbose linkBins supports-color@0.2.0
+915 verbose link bins [ { 'supports-color': 'cli.js' },
+915 verbose link bins   '/Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/.bin',
+915 verbose link bins   false ]
+916 verbose linkMans supports-color@0.2.0
+917 verbose rebuildBundles supports-color@0.2.0
+918 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/.bin/supports-color is being purged
+919 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/.bin/supports-color
+920 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan/package.json
+921 info install supports-color@0.2.0
+922 info postinstall supports-color@0.2.0
+923 info preinstall nan@1.9.0
+924 verbose unlock done using /Users/baidu/.npm/_locks/supports-color-c992a79807172781.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/supports-color
+925 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan/package.json
+926 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan/package.json
+927 silly install resolved []
+928 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan
+929 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan
+930 info linkStuff nan@1.9.0
+931 silly linkStuff nan@1.9.0 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules as its parent node_modules
+932 verbose linkBins nan@1.9.0
+933 verbose linkMans nan@1.9.0
+934 verbose rebuildBundles nan@1.9.0
+935 info install nan@1.9.0
+936 info postinstall nan@1.9.0
+937 verbose unlock done using /Users/baidu/.npm/_locks/nan-bd5940addffcbb95.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/nan
+938 http 304 http://registry.npm.taobao.org/ansi-regex
+939 verbose headers { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+939 verbose headers   connection: 'keep-alive',
+939 verbose headers   etag: '"2bd3-IbuMXvSuRlDLG65BkrzsZg"',
+939 verbose headers   'x-readtime': '24' }
+940 silly get cb [ 304,
+940 silly get   { date: 'Mon, 14 Mar 2016 12:55:39 GMT',
+940 silly get     connection: 'keep-alive',
+940 silly get     etag: '"2bd3-IbuMXvSuRlDLG65BkrzsZg"',
+940 silly get     'x-readtime': '24' } ]
+941 verbose etag http://registry.npm.taobao.org/ansi-regex from cache
+942 verbose get saving ansi-regex to /Users/baidu/.npm/registry.npm.taobao.org/ansi-regex/.cache.json
+943 silly addNameRange number 2 { name: 'ansi-regex', range: '>=0.2.1 <0.3.0', hasData: true }
+944 silly addNameRange versions [ 'ansi-regex',
+944 silly addNameRange   [ '2.0.0', '1.1.1', '1.1.0', '1.0.0', '0.2.1', '0.2.0', '0.1.0' ] ]
+945 silly addNamed ansi-regex@0.2.1
+946 verbose addNamed "0.2.1" is a plain semver version for ansi-regex
+947 silly addNameRange number 2 { name: 'ansi-regex', range: '>=0.2.0 <0.3.0', hasData: true }
+948 silly addNameRange versions [ 'ansi-regex',
+948 silly addNameRange   [ '2.0.0', '1.1.1', '1.1.0', '1.0.0', '0.2.1', '0.2.0', '0.1.0' ] ]
+949 silly addNamed ansi-regex@0.2.1
+950 verbose addNamed "0.2.1" is a plain semver version for ansi-regex
+951 silly cache afterAdd ansi-regex@0.2.1
+952 verbose afterAdd /Users/baidu/.npm/ansi-regex/0.2.1/package/package.json not in flight; writing
+953 silly cache afterAdd ansi-regex@0.2.1
+954 verbose afterAdd /Users/baidu/.npm/ansi-regex/0.2.1/package/package.json already in flight; not writing
+955 verbose afterAdd /Users/baidu/.npm/ansi-regex/0.2.1/package/package.json written
+956 silly install resolved [ { name: 'ansi-regex',
+956 silly install resolved     version: '0.2.1',
+956 silly install resolved     description: 'Regular expression for matching ANSI escape codes',
+956 silly install resolved     license: 'MIT',
+956 silly install resolved     repository:
+956 silly install resolved      { type: 'git',
+956 silly install resolved        url: 'git://github.com/sindresorhus/ansi-regex.git' },
+956 silly install resolved     author:
+956 silly install resolved      { name: 'Sindre Sorhus',
+956 silly install resolved        email: 'sindresorhus@gmail.com',
+956 silly install resolved        url: 'http://sindresorhus.com' },
+956 silly install resolved     engines: { node: '>=0.10.0' },
+956 silly install resolved     scripts: { test: 'mocha' },
+956 silly install resolved     files: [ 'index.js' ],
+956 silly install resolved     keywords:
+956 silly install resolved      [ 'ansi',
+956 silly install resolved        'styles',
+956 silly install resolved        'color',
+956 silly install resolved        'colour',
+956 silly install resolved        'colors',
+956 silly install resolved        'terminal',
+956 silly install resolved        'console',
+956 silly install resolved        'cli',
+956 silly install resolved        'string',
+956 silly install resolved        'tty',
+956 silly install resolved        'escape',
+956 silly install resolved        'formatting',
+956 silly install resolved        'rgb',
+956 silly install resolved        '256',
+956 silly install resolved        'shell',
+956 silly install resolved        'xterm',
+956 silly install resolved        'command-line',
+956 silly install resolved        'text',
+956 silly install resolved        'regex',
+956 silly install resolved        'regexp',
+956 silly install resolved        're',
+956 silly install resolved        'match',
+956 silly install resolved        'test',
+956 silly install resolved        'find',
+956 silly install resolved        'pattern' ],
+956 silly install resolved     devDependencies: { mocha: '*' },
+956 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-regex/issues' },
+956 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-regex',
+956 silly install resolved     _id: 'ansi-regex@0.2.1',
+956 silly install resolved     _shasum: '0d8e946967a3d8143f93e24e298525fc1b2235f9',
+956 silly install resolved     _from: 'ansi-regex@>=0.2.1 <0.3.0',
+956 silly install resolved     _npmVersion: '1.4.9',
+956 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+956 silly install resolved     maintainers: [ [Object] ],
+956 silly install resolved     dist:
+956 silly install resolved      { shasum: '0d8e946967a3d8143f93e24e298525fc1b2235f9',
+956 silly install resolved        tarball: 'http://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz' },
+956 silly install resolved     directories: {},
+956 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz',
+956 silly install resolved     readme: 'ERROR: No README data found!' } ]
+957 info install ansi-regex@0.2.1 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+958 info installOne ansi-regex@0.2.1
+959 verbose installOne of ansi-regex to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi not in flight; installing
+960 silly install resolved [ { name: 'ansi-regex',
+960 silly install resolved     version: '0.2.1',
+960 silly install resolved     description: 'Regular expression for matching ANSI escape codes',
+960 silly install resolved     license: 'MIT',
+960 silly install resolved     repository:
+960 silly install resolved      { type: 'git',
+960 silly install resolved        url: 'git://github.com/sindresorhus/ansi-regex.git' },
+960 silly install resolved     author:
+960 silly install resolved      { name: 'Sindre Sorhus',
+960 silly install resolved        email: 'sindresorhus@gmail.com',
+960 silly install resolved        url: 'http://sindresorhus.com' },
+960 silly install resolved     engines: { node: '>=0.10.0' },
+960 silly install resolved     scripts: { test: 'mocha' },
+960 silly install resolved     files: [ 'index.js' ],
+960 silly install resolved     keywords:
+960 silly install resolved      [ 'ansi',
+960 silly install resolved        'styles',
+960 silly install resolved        'color',
+960 silly install resolved        'colour',
+960 silly install resolved        'colors',
+960 silly install resolved        'terminal',
+960 silly install resolved        'console',
+960 silly install resolved        'cli',
+960 silly install resolved        'string',
+960 silly install resolved        'tty',
+960 silly install resolved        'escape',
+960 silly install resolved        'formatting',
+960 silly install resolved        'rgb',
+960 silly install resolved        '256',
+960 silly install resolved        'shell',
+960 silly install resolved        'xterm',
+960 silly install resolved        'command-line',
+960 silly install resolved        'text',
+960 silly install resolved        'regex',
+960 silly install resolved        'regexp',
+960 silly install resolved        're',
+960 silly install resolved        'match',
+960 silly install resolved        'test',
+960 silly install resolved        'find',
+960 silly install resolved        'pattern' ],
+960 silly install resolved     devDependencies: { mocha: '*' },
+960 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-regex/issues' },
+960 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-regex',
+960 silly install resolved     _id: 'ansi-regex@0.2.1',
+960 silly install resolved     _shasum: '0d8e946967a3d8143f93e24e298525fc1b2235f9',
+960 silly install resolved     _from: 'ansi-regex@>=0.2.1 <0.3.0',
+960 silly install resolved     _npmVersion: '1.4.9',
+960 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+960 silly install resolved     maintainers: [ [Object] ],
+960 silly install resolved     dist:
+960 silly install resolved      { shasum: '0d8e946967a3d8143f93e24e298525fc1b2235f9',
+960 silly install resolved        tarball: 'http://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz' },
+960 silly install resolved     directories: {},
+960 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz',
+960 silly install resolved     readme: 'ERROR: No README data found!' } ]
+961 info install ansi-regex@0.2.1 into /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+962 info installOne ansi-regex@0.2.1
+963 verbose installOne of ansi-regex to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi not in flight; installing
+964 verbose lock using /Users/baidu/.npm/_locks/ansi-regex-b707ea39a3a285e2.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+965 silly install write writing ansi-regex 0.2.1 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+966 verbose lock using /Users/baidu/.npm/_locks/ansi-regex-d5d6265fd6ea9dd4.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+967 silly install write writing ansi-regex 0.2.1 to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+968 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+969 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+970 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+971 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+972 verbose tar unpack /Users/baidu/.npm/ansi-regex/0.2.1/package.tgz
+973 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+974 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex is being purged
+975 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+976 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+977 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+978 silly gunzTarPerm modes [ '755', '644' ]
+979 verbose tar unpack /Users/baidu/.npm/ansi-regex/0.2.1/package.tgz
+980 verbose tar unpacking to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+981 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex is being purged
+982 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+983 silly gunzTarPerm modes [ '755', '644' ]
+984 silly gunzTarPerm extractEntry package.json
+985 silly gunzTarPerm extractEntry package.json
+986 silly gunzTarPerm extractEntry index.js
+987 silly gunzTarPerm extractEntry readme.md
+988 silly gunzTarPerm extractEntry index.js
+989 silly gunzTarPerm extractEntry readme.md
+990 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json
+991 verbose write writing to /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json
+992 info preinstall ansi-regex@0.2.1
+993 info preinstall ansi-regex@0.2.1
+994 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json
+995 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json
+996 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json
+997 verbose readDependencies loading dependencies from /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json
+998 silly install resolved []
+999 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+1000 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+1001 silly install resolved []
+1002 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+1003 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+1004 info linkStuff ansi-regex@0.2.1
+1005 silly linkStuff ansi-regex@0.2.1 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules as its parent node_modules
+1006 info linkStuff ansi-regex@0.2.1
+1007 silly linkStuff ansi-regex@0.2.1 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules as its parent node_modules
+1008 verbose linkBins ansi-regex@0.2.1
+1009 verbose linkMans ansi-regex@0.2.1
+1010 verbose rebuildBundles ansi-regex@0.2.1
+1011 info install ansi-regex@0.2.1
+1012 verbose linkBins ansi-regex@0.2.1
+1013 verbose linkMans ansi-regex@0.2.1
+1014 verbose rebuildBundles ansi-regex@0.2.1
+1015 info install ansi-regex@0.2.1
+1016 info postinstall ansi-regex@0.2.1
+1017 info postinstall ansi-regex@0.2.1
+1018 verbose unlock done using /Users/baidu/.npm/_locks/ansi-regex-b707ea39a3a285e2.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+1019 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+1020 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+1021 verbose unlock done using /Users/baidu/.npm/_locks/ansi-regex-d5d6265fd6ea9dd4.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+1022 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+1023 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+1024 info linkStuff strip-ansi@0.3.0
+1025 silly linkStuff strip-ansi@0.3.0 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules as its parent node_modules
+1026 info linkStuff has-ansi@0.1.0
+1027 silly linkStuff has-ansi@0.1.0 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules as its parent node_modules
+1028 verbose linkBins strip-ansi@0.3.0
+1029 verbose link bins [ { 'strip-ansi': 'cli.js' },
+1029 verbose link bins   '/Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/.bin',
+1029 verbose link bins   false ]
+1030 verbose linkMans strip-ansi@0.3.0
+1031 verbose rebuildBundles strip-ansi@0.3.0
+1032 verbose rebuildBundles [ 'ansi-regex' ]
+1033 verbose linkBins has-ansi@0.1.0
+1034 verbose link bins [ { 'has-ansi': 'cli.js' },
+1034 verbose link bins   '/Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/.bin',
+1034 verbose link bins   false ]
+1035 verbose linkMans has-ansi@0.1.0
+1036 verbose rebuildBundles has-ansi@0.1.0
+1037 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/.bin/strip-ansi is being purged
+1038 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/.bin/strip-ansi
+1039 verbose rebuildBundles [ 'ansi-regex' ]
+1040 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/.bin/has-ansi is being purged
+1041 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/.bin/has-ansi
+1042 info install strip-ansi@0.3.0
+1043 info install has-ansi@0.1.0
+1044 info postinstall strip-ansi@0.3.0
+1045 info postinstall has-ansi@0.1.0
+1046 verbose unlock done using /Users/baidu/.npm/_locks/strip-ansi-b1d4d450abf91702.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/strip-ansi
+1047 verbose unlock done using /Users/baidu/.npm/_locks/has-ansi-05eef85027d08465.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk/node_modules/has-ansi
+1048 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+1049 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+1050 info linkStuff chalk@0.5.1
+1051 silly linkStuff chalk@0.5.1 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules as its parent node_modules
+1052 verbose linkBins chalk@0.5.1
+1053 verbose linkMans chalk@0.5.1
+1054 verbose rebuildBundles chalk@0.5.1
+1055 verbose rebuildBundles [ '.bin',
+1055 verbose rebuildBundles   'ansi-styles',
+1055 verbose rebuildBundles   'escape-string-regexp',
+1055 verbose rebuildBundles   'has-ansi',
+1055 verbose rebuildBundles   'strip-ansi',
+1055 verbose rebuildBundles   'supports-color' ]
+1056 info install chalk@0.5.1
+1057 info postinstall chalk@0.5.1
+1058 verbose unlock done using /Users/baidu/.npm/_locks/chalk-f85505927d57351d.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass/node_modules/chalk
+1059 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+1060 info build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+1061 info linkStuff fis-sass@3.1.3
+1062 silly linkStuff fis-sass@3.1.3 has /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules as its parent node_modules
+1063 verbose linkBins fis-sass@3.1.3
+1064 verbose linkMans fis-sass@3.1.3
+1065 verbose rebuildBundles fis-sass@3.1.3
+1066 verbose rebuildBundles [ 'chalk', 'nan', 'step' ]
+1067 info install fis-sass@3.1.3
+1068 verbose unsafe-perm in lifecycle false
+1069 info fis-sass@3.1.3 Failed to exec install script
+1070 verbose unlock done using /Users/baidu/.npm/_locks/fis-sass-95d649cf87acf4d3.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+1071 verbose about to build /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+1072 verbose unlock done using /Users/baidu/.npm/_locks/fis-parser-sass-f949c9af47ec42b7.lock for /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+1073 verbose stack Error: fis-sass@3.1.3 install: `node build.js`
+1073 verbose stack Exit status 1
+1073 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+1073 verbose stack     at emitTwo (events.js:87:13)
+1073 verbose stack     at EventEmitter.emit (events.js:172:7)
+1073 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+1073 verbose stack     at emitTwo (events.js:87:13)
+1073 verbose stack     at ChildProcess.emit (events.js:172:7)
+1073 verbose stack     at maybeClose (internal/child_process.js:821:16)
+1073 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+1074 verbose pkgid fis-sass@3.1.3
+1075 verbose cwd /Users/baidu/code/my_test/github/MobileWeb
+1076 error Darwin 15.3.0
+1077 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "fis-parser-sass"
+1078 error node v4.2.6
+1079 error npm  v2.14.12
+1080 error code ELIFECYCLE
+1081 error fis-sass@3.1.3 install: `node build.js`
+1081 error Exit status 1
+1082 error Failed at the fis-sass@3.1.3 install script 'node build.js'.
+1082 error This is most likely a problem with the fis-sass package,
+1082 error not with npm itself.
+1082 error Tell the author that this fails on your system:
+1082 error     node build.js
+1082 error You can get their info via:
+1082 error     npm owner ls fis-sass
+1082 error There is likely additional logging output above.
+1083 verbose exit [ 1, true ]
+1084 verbose unbuild node_modules/fis-parser-sass/node_modules/fis-sass
+1085 info preuninstall fis-sass@3.1.3
+1086 info uninstall fis-sass@3.1.3
+1087 verbose unbuild rmStuff fis-sass@3.1.3 from /Users/baidu/code/my_test/github/MobileWeb/node_modules
+1088 verbose unbuild rmStuff in /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules
+1089 info postuninstall fis-sass@3.1.3
+1090 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+1091 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+1092 silly vacuum-fs purging /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules/fis-sass
+1093 silly vacuum-fs removing /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass/node_modules
+1094 silly vacuum-fs quitting because other entries in /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+1095 verbose unbuild node_modules/fis-parser-sass
+1096 info preuninstall fis-parser-sass@0.3.16
+1097 info uninstall fis-parser-sass@0.3.16
+1098 verbose unbuild rmStuff fis-parser-sass@0.3.16 from /Users/baidu/code/my_test/github/MobileWeb/node_modules
+1099 info postuninstall fis-parser-sass@0.3.16
+1100 silly gentlyRm /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass is being purged from base /Users/baidu/code/my_test/github/MobileWeb
+1101 verbose gentlyRm don't care about contents; nuking /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+1102 silly vacuum-fs purging /Users/baidu/code/my_test/github/MobileWeb/node_modules/fis-parser-sass
+1103 silly vacuum-fs quitting because other entries in /Users/baidu/code/my_test/github/MobileWeb/node_modules
