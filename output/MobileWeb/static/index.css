@@ -18,6 +18,13 @@ body * {
   -webkit-text-size-adjust: none;
 }
 
+.container {
+  width: 10rem;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+
 ul {
   overflow: hidden;
   list-style-type: none;
