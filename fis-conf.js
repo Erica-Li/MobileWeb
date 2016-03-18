@@ -1,5 +1,5 @@
 fis.match('*', {
-  release: '/web/$0'
+  release: '/MobileWeb/$0'
 });
 fis.match('static/*',{
     isMod: false
